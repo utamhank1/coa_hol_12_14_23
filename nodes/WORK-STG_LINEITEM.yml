@@ -243,14 +243,16 @@ steps:
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - aliases: {}
+          - aliases:
+              LINEITEM: 4003ba91-33a0-4966-8039-04f606ecd90f
             customSQL:
               customSQL: ""
             dependencies:
               - locationName: SRC
                 nodeName: LINEITEM
             join:
-              joinCondition: FROM {{ ref('SRC', 'LINEITEM') }} "LINEITEM"
+              joinCondition: |
+                FROM {{ ref('SRC', 'LINEITEM') }} "LINEITEM"
             name: STG_LINEITEM
             noLinkRefs: []
       name: STG_LINEITEM
