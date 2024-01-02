@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- Main
 
 pool:
   vmImage: ubuntu-latest
@@ -24,9 +24,9 @@ steps:
   displayName: 'Install coa CLI'
 
 - script: |
-    coa plan --config $(coaConfig.secureFilePath) --profile Production
+    coa plan --config $(coaConfig.secureFilePath) --profile QA
   displayName: 'Build a plan'
 
 - script: |
-    coa deploy --config $(coaConfig.secureFilePath) --profile Production
+    coa deploy --config $(coaConfig.secureFilePath) --profile QA
   displayName: 'Deploy to PROD'
