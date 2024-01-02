@@ -28,5 +28,5 @@ steps:
   displayName: 'Build a plan'
 
 - script: |
-    coa deploy --config $(coaConfig.secureFilePath) --profile Production
-  displayName: 'Deploy to Production environment.'
+    coa deploy --config $(coaConfig.secureFilePfath) --profile Production
+  displayName: 'Deploy to Production environmenfdt.'
