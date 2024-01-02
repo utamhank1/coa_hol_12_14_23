@@ -1,0 +1,28 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- task: DownloadSecureFile@1
+  name: coaConfig
+  displayName: 'Write coa secrets file'
+  inputs:
+    secureFile: 'coa-config_hol_lab_12_24_23'
+
+- script: |
+    coa plan --config $(coaConfig.secureFilePath) --profile Production
+  displayName: 'Build a plan'
+
+- script: |
+    coa deploy --config $(coaConfig.secureFilePath) --profile Production
+  displayName: 'Deploy to PROD'
