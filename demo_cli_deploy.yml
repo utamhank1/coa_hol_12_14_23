@@ -24,9 +24,9 @@ steps:
   displayName: 'Install coa CLI'
 
 - script: |
-    coa plan --config $(coaConfig.secureFilePath) --profile Production
+    coa plan --config $(coaConfig.secureFilePath) --profile QA
   displayName: 'Build a plan'
 
 - script: |
-    coa deploy --config $(coaConfig.secureFilePath) --profile Production
-  displayName: 'Deploy to PROD'
+    coa deploy --config $(coaConfig.secureFilePath) --profile QA
+  displayName: 'Deploy to QA'
