@@ -20,10 +20,10 @@ locations:
         schema: HOL_LAB_12_14_TEST
       "38":
         database: JJ_QA
-        schema: JJ_QA_SCHEMA
+        schema: HOL_LAB_12_14_QA
       "39":
         database: JJ_PROD
-        schema: JJ_PROD_SCHEMA
+        schema: HOL_LAB_12_14_PROD
 macros: {}
 packages: {}
 projects: {}
