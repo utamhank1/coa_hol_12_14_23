@@ -17,7 +17,7 @@ steps:
   name: coaConfig
   displayName: 'Write coa secrets file'
   inputs:
-    secureFile: 'coa-config_hol_lab_12_24_23'
+    secureFile: 'coa-config_hol_lab_12_24_23.txt'
 
 - script: |
     coa plan --config $(coaConfig.secureFilePath) --profile Production
