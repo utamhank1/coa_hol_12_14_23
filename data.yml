@@ -7,11 +7,23 @@ locations:
       "37":
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
+      "38":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
+      "39":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
   WORK:
     mappingDefinitions:
       "37":
         database: JJ_TEST
         schema: HOL_LAB_12_14_TEST
+      "38":
+        database: JJ_QA
+        schema: JJ_QA_SCHEMA
+      "39":
+        database: JJ_PROD
+        schema: JJ_PROD_SCHEMA
 macros: {}
 packages: {}
 projects: {}

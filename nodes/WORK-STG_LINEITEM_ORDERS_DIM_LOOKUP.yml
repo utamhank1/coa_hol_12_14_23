@@ -447,7 +447,11 @@ steps:
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - aliases: {}
+          - aliases:
+              DIM_CUSTOMER: 6baa7427-cfa7-41d7-a63c-9a025aef5dba
+              DIM_PART: 07cb85d8-7f85-4026-9a99-f85a65b5f8db
+              DIM_SUPPLIER: 46ba1b27-f4e5-4e58-85ff-b28afa2a359a
+              STG_LINEITEM_ORDERS: 91683470-1def-4a69-bc14-6fd7246d26be
             customSQL:
               customSQL: ""
             dependencies:
@@ -461,7 +465,6 @@ steps:
                 nodeName: STG_LINEITEM_ORDERS
             join:
               joinCondition: |-
-                FROM {{ ref('WORK', 'STG_LINEITEM_ORDERS') }} "STG_LINEITEM_ORDERS"
                 FROM {{ ref('WORK', 'STG_LINEITEM_ORDERS') }} "STG_LINEITEM_ORDERS"
                 LEFT JOIN {{ ref('WORK', 'DIM_CUSTOMER') }} "DIM_CUSTOMER"
                 ON "STG_LINEITEM_ORDERS".ORDER_CUSTKEY = "DIM_CUSTOMER"."C_CUSTKEY"
