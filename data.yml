@@ -23,7 +23,7 @@ locations:
         schema: JJ_QA_SCHEMA
       "39":
         database: JJ_PROD
-        schema: JJ_PROD_SCHEMA
+        schema: HOL_LAB_12_14_PROD
 macros: {}
 packages: {}
 projects: {}

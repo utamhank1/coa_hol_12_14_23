@@ -41,7 +41,7 @@ steps:
             hashDetails: null
             isBusinessKey: true
             name: C_CUSTKEY
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 66321d7c-16c7-40b6-95f9-66cc52a3f156
