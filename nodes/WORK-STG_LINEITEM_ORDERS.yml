@@ -417,6 +417,22 @@ steps:
 
             systemColumnType: None
             transform: ""
+          - acceptedValues:
+              strictMatch: false
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 3035c1dd-b2da-44da-a211-31266eadf770
+              stepCounter: 91683470-1def-4a69-bc14-6fd7246d26be
+            dataType: VARCHAR(44)
+            description: ""
+            name: L_COMMENT_CAPS
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 008418a1-52e5-484d-8c9d-43d19df78c33
+                    stepCounter: 800b6db5-2671-4978-b8a4-fe427e4b9e24
+                transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
