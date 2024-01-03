@@ -30,3 +30,7 @@ steps:
 - script: |
     coa deploy --config $(coaConfig.secureFilePath) --profile Production
   displayName: 'Deploy to Production environment new description'
+
+- script: |
+    coa refresh --config $(coaConfig.secureFilePath) --profile Production
+  displayName: 'Refresh Production Environment.'
