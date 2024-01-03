@@ -9,10 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-variables:
- - name: coalesceCliVersion
-   value: 6.2.9
-
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
@@ -24,7 +20,7 @@ steps:
     secureFile: 'coa-config_hol_lab_12_24_23.txt'
 
 - script: |
-    npm install -g @coalescesoftware/coa@$(coalesceCliVersion)
+    npm install -g @coalescesoftware/coa
   displayName: 'Install coa CLI'
 
 - script: |
