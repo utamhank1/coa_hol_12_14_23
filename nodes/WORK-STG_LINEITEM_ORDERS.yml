@@ -9,7 +9,7 @@ steps:
         truncateBefore: true
       database: ""
       deployEnabled: true
-      description: ""
+      description: This is a comment.
       isMultisource: false
       locationName: WORK
       materializationType: view
