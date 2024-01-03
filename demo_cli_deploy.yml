@@ -1,0 +1,35 @@
+trigger:
+- QA
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+ - name: coalesceCliVersion
+   value: 6.2.9
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- task: DownloadSecureFile@1
+  name: coaConfig
+  displayName: 'Write coa secrets file'
+  inputs:
+    secureFile: 'coa-config_hol_lab_12_24_23.txt'
+
+- script: |
+    npm install -g @coalescesoftware/coa@$(coalesceCliVersion)
+  displayName: 'Install coa CLI'
+
+- script: |
+    coa plan --config $(coaConfig.secureFilePath) --profile QA
+  displayName: 'Build a plan'
+
+- script: |
+    coa deploy --config $(coaConfig.secureFilePath) --profile QA
+  displayName: 'Deploy to QA environment'
+
+- script: |
+    coa refresh --config $(coaConfig.secureFilePath) --profile QA
+  displayName: 'Refresh QA Environment.'
