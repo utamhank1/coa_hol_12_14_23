@@ -253,7 +253,7 @@ steps:
               - columnReferences:
                   - columnCounter: 2accf6d3-0b1d-4049-ba05-4291307078cd
                     stepCounter: 4003ba91-33a0-4966-8039-04f606ecd90f
-                transform: UPPER(L_COMMENT)
+                transform: LOWER(L_COMMENT)
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
