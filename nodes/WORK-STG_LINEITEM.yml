@@ -240,6 +240,20 @@ steps:
                   - columnCounter: 2accf6d3-0b1d-4049-ba05-4291307078cd
                     stepCounter: 4003ba91-33a0-4966-8039-04f606ecd90f
                 transform: ""
+          - columnReference:
+              columnCounter: 008418a1-52e5-484d-8c9d-43d19df78c33
+              stepCounter: 800b6db5-2671-4978-b8a4-fe427e4b9e24
+            dataType: VARCHAR(44)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: L_COMMENT_CAPS
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 2accf6d3-0b1d-4049-ba05-4291307078cd
+                    stepCounter: 4003ba91-33a0-4966-8039-04f606ecd90f
+                transform: UPPER(L_COMMENT)
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
