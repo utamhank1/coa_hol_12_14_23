@@ -8,6 +8,13 @@ jobs:
     name: New Job
     steps: []
     subgraphs: []
+  Job-7:
+    excludeSelector: ""
+    id: 7
+    includeSelector: "{ location: WORK name: DIM_PART } OR { location: WORK name: STG_PART } OR { location: SRC name: PART }"
+    name: New Job2
+    steps: []
+    subgraphs: []
 locations:
   SRC:
     mappingDefinitions:
