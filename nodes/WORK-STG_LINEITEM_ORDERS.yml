@@ -295,7 +295,7 @@ steps:
               - columnReferences:
                   - columnCounter: 4b8be7f7-c061-419b-905f-01f9a7a86c4a
                     stepCounter: d3f05a0b-2f02-4127-960f-70f244e44fbf
-                transform: CASE WHEN "STG_LINEITEM"."L_LINENUMBER" = 1 THEN "STG_ORDERS"."O_TOTALPRICE" ELSE 0 END
+                transform: CASE WHEN {{ parameters.my_parameter1 }} = 1 THEN "STG_ORDERS"."O_TOTALPRICE" ELSE 0 END
           - columnReference:
               columnCounter: 58c35375-ee43-4d92-89bc-073abbb70ca8
               stepCounter: 91683470-1def-4a69-bc14-6fd7246d26be
@@ -393,7 +393,7 @@ steps:
               - columnReferences:
                   - columnCounter: 33504960-6853-4622-b843-462e85c5b6d2
                     stepCounter: d3f05a0b-2f02-4127-960f-70f244e44fbf
-                transform: ""
+                transform: CASE WHEN {{ parameters.cap_comment }} = 1 THEN UPPER("STG_ORDERS"."O_COMMENT") ELSE "STG_ORDERS"."O_COMMENT" END
           - acceptedValues:
               strictMatch: true
               values: []
