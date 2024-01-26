@@ -393,7 +393,7 @@ steps:
               - columnReferences:
                   - columnCounter: 33504960-6853-4622-b843-462e85c5b6d2
                     stepCounter: d3f05a0b-2f02-4127-960f-70f244e44fbf
-                transform: LOWER("STG_ORDERS"."O_COMMENT")
+                transform: CASE WHEN {{ parameters.cap_comment }} = 1 THEN UPPER("STG_ORDERS"."O_COMMENT") ELSE LOWER("STG_ORDERS"."O_COMMENT") END
           - acceptedValues:
               strictMatch: true
               values: []
