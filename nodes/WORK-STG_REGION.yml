@@ -9,7 +9,7 @@ steps:
         truncateBefore: true
       database: ""
       deployEnabled: true
-      description: Region data as defined by TPC-H
+      description: Description of stg_nation.
       isMultisource: false
       locationName: WORK
       materializationType: table
