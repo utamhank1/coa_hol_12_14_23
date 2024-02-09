@@ -19,11 +19,11 @@ locations:
         database: JJ_TEST
         schema: HOL_LAB_12_14_TEST
       "38":
-        database: JJ_QA
-        schema: HOL_LAB_12_14_QA
+        database: TXM_DEMO_DW_DB_PROD_UAT
+        schema: TXM_DEMO_DW_SCHEMA_PROD_UAT
       "39":
-        database: JJ_PROD
-        schema: HOL_LAB_12_14_PROD
+        database: TXM_DEMO_DW_DB_PROD
+        schema: TXM_DEMO_DW_SCHEMA_PROD
 macros: {}
 packages: {}
 projects: {}
