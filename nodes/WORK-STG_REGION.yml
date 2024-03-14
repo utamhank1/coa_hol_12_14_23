@@ -9,7 +9,7 @@ steps:
         truncateBefore: true
       database: ""
       deployEnabled: true
-      description: Description of stg_nation.
+      description: Adding a new Description to test CI/CD pipeline.
       isMultisource: false
       locationName: WORK
       materializationType: table
