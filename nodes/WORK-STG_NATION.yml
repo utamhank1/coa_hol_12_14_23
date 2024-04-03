@@ -9,7 +9,7 @@ steps:
         truncateBefore: true
       database: ""
       deployEnabled: true
-      description: Nation data as defined by TPC-H
+      description: Nation Data Node description.
       isMultisource: false
       locationName: WORK
       materializationType: table
