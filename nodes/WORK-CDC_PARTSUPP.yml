@@ -1,0 +1,197 @@
+steps:
+  CDC_PARTSUPP-1d26dda2-a4da-4c79-a2ba-fa8c7839a954:
+    operation:
+      config:
+        taskCustomName: ""
+        taskEnabled: false
+        taskSchedule: Every 30 minutes
+        taskWarehouse: EMEA_TRANSFORM_XS_WH
+        undefined: null
+      database: ""
+      deployEnabled: true
+      description: Partsupp data as defined by TPC-H
+      isMultisource: false
+      locationName: WORK
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - columnReference:
+              columnCounter: 608d18af-4119-4ac4-badc-14e8e9d9d92e
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PS_PARTKEY
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 27cf7868-c636-498c-bd45-3f560e3d4c72
+                    stepCounter: af3512ae-81bb-4a2b-bc0f-a0c3eba89f60
+                transform: ""
+          - columnReference:
+              columnCounter: fef02333-0844-423a-bc88-ea57c28ee266
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PS_SUPPKEY
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 1606abd5-adfd-4f24-8277-bb810ac41785
+                    stepCounter: af3512ae-81bb-4a2b-bc0f-a0c3eba89f60
+                transform: ""
+          - columnReference:
+              columnCounter: fe4a99bb-aa09-4d63-954b-e233404aadd3
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PS_AVAILQTY
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 295316a2-8948-4053-8ac8-a20308aa2f16
+                    stepCounter: af3512ae-81bb-4a2b-bc0f-a0c3eba89f60
+                transform: ""
+          - columnReference:
+              columnCounter: 60b199ff-3150-4ba6-bac7-f12afaf16892
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            dataType: NUMBER(12,2)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PS_SUPPLYCOST
+            nullable: false
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 82982907-8a33-40fe-ac00-51497237f4b8
+                    stepCounter: af3512ae-81bb-4a2b-bc0f-a0c3eba89f60
+                transform: ""
+          - columnReference:
+              columnCounter: 145b2f9b-6e78-448f-9f6d-6e9097c438e0
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            dataType: VARCHAR(199)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PS_COMMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 48c2731a-6542-4988-9f6e-0e6538e67a20
+                    stepCounter: af3512ae-81bb-4a2b-bc0f-a0c3eba89f60
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 4cfa068e-0cd4-403b-98b9-e26b53a72d2d
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: Indicates the DML operation (INSERT, DELETE) recorded.
+            hashColumns: []
+            isStreamMetadataAction: true
+            name: METADATA$ACTION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: METADATA$ACTION
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: eb64a466-4fb1-4707-bab7-83714c113743
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: Indicates whether the operation was part of an UPDATE statement.
+            hashColumns: []
+            isStreamMetadataIsUpdate: true
+            name: METADATA$ISUPDATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: METADATA$ISUPDATE
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ebcca2ba-711a-4b20-a68f-750d126978b1
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: Specifies the unique and immutable ID for the row, which can be used to track changes to specific rows over time.
+            hashColumns: []
+            isStreamMetadataRowId: true
+            name: METADATA$ROW_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: METADATA$ROW_ID
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: b3452c41-324a-4f51-89ab-dec5aebbb39a
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            config: {}
+            dataType: INTEGER
+            defaultValue: ""
+            description: Medtronic specific CDC identifier based on a sequence.
+            hashColumns: []
+            isStreamMetadataCDCId: true
+            name: CDC_ID
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: "{{ ref_no_link(node.location.name, \"SEQ_\" + node.name) }}.NEXTVAL"
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 53bc9c3b-fc5f-46b4-bbc0-db3758e29661
+              stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: Medtronic specific attribute containing the timestamp of storing the CDC record.
+            hashColumns: []
+            isSystemCreateDate: true
+            name: CDC_TIMESTAMP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - aliases: {}
+            customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: WORK
+                nodeName: STG_PARTSUPP
+            join:
+              joinCondition: FROM {{ ref('WORK', 'STG_PARTSUPP') }} "STG_PARTSUPP"
+            name: CDC_PARTSUPP
+            noLinkRefs: []
+      name: CDC_PARTSUPP
+      overrideSQL: false
+      schema: ""
+      sqlType: "40"
+      type: sql
+    stepCounter: 1d26dda2-a4da-4c79-a2ba-fa8c7839a954

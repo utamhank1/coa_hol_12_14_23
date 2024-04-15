@@ -7,9 +7,10 @@ steps:
         insertStrategy: UNION
         lagSpecification:
           items:
-            - {}
+            - lagPeriod: Days
+              lagValue: "1"
         selectDistinct: false
-        warehouseName: compute_wh
+        warehouseName: COMPUTE_WH
       database: ""
       deployEnabled: true
       description: Nation data as defined by TPC-H
