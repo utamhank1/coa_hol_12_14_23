@@ -25,8 +25,8 @@ locations:
         database: JJ_AUDIT
         schema: JJ_AUDIT_QA
       "39":
-        database: ""
-        schema: ""
+        database: JJ_AUDIT
+        schema: JJ_AUDIT_PROD
   SRC:
     mappingDefinitions:
       "37":
