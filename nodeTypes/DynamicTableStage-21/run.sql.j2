@@ -1,0 +1,14 @@
+{{ stage('Nothing to do.') }}
+
+{%- set tst = sources[0].columns | map(attribute='transform') | list %}
+{%- set nsVariables = namespace(transformArray=[]) %}
+
+{% for s in sources %}
+    {% for c in s.columns %}
+        {% set nsVariables.transformArray = nsVariables.transformArray +  [c.transform] -%}
+    {% endfor %}
+{% endfor %}
+
+{{ nsVariables.transformArray }}
+
+
