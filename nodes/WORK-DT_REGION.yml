@@ -1,0 +1,84 @@
+fileVersion: 1
+id: 1209950f-50af-434f-9fb4-a6ce3b573aed
+name: DT_REGION
+operation:
+  config:
+    downstreamOption: false
+    groupByAll: true
+    insertStrategy: UNION
+    lagSpecification:
+      items:
+        - lagValue: 60
+    selectDistinct: false
+    warehouseName: dev_wh_xs
+  database: ""
+  deployEnabled: true
+  description: Region data as defined by TPC-H
+  isMultisource: true
+  locationName: WORK
+  materializationType: Dynamic Table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a9a584fb-a11c-45c8-b4be-4dd18f62891e
+          stepCounter: 1209950f-50af-434f-9fb4-a6ce3b573aed
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: R_REGIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8f180b65-5cd6-4ad5-804e-ea18ec05a815
+                stepCounter: 284d082b-5581-4353-a344-b428e31608c1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 206c6c9b-97fe-4f93-a7c8-58a82cd42f3f
+          stepCounter: 1209950f-50af-434f-9fb4-a6ce3b573aed
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: R_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 072804ca-a114-4190-8f68-085b1f12ace7
+                stepCounter: 284d082b-5581-4353-a344-b428e31608c1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ab37c769-d5e8-47be-8fbd-25c16a48a5da
+          stepCounter: 1209950f-50af-434f-9fb4-a6ce3b573aed
+        config: {}
+        dataType: VARCHAR(152)
+        description: ""
+        name: R_COMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 206217fb-6f85-4255-99c8-1ea54e61ee0e
+                stepCounter: 284d082b-5581-4353-a344-b428e31608c1
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_REGION
+        join:
+          joinCondition: FROM {{ ref('WORK', 'STG_REGION') }} "STG_REGION"
+        name: DT_REGION
+        noLinkRefs: []
+  name: DT_REGION
+  overrideSQL: false
+  schema: ""
+  sqlType: "21"
+  type: sql
+  version: 1
+type: Node

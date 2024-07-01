@@ -8,8 +8,8 @@ operation:
     insertStrategy: UNION
     lagSpecification:
       items:
-        - lagPeriod: Days
-          lagValue: "1"
+        - lagPeriod: Minutes
+          lagValue: "{{dynamicTableLag}}"
     selectDistinct: false
     warehouseName: COMPUTE_WH
   database: ""
