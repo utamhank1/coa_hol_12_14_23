@@ -1,0 +1,14 @@
+fileVersion: 1
+id: "39"
+mappingDefinitions:
+  AUDIT:
+    database: JJ_AUDIT
+    schema: JJ_AUDIT_PROD
+  SRC:
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+  WORK:
+    database: JJ_PROD
+    schema: HOL_LAB_12_14_PROD
+name: Production
+type: Environment
