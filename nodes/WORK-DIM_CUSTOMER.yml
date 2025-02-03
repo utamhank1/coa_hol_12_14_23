@@ -71,6 +71,7 @@ operation:
         dataType: VARCHAR(40)
         description: ""
         hashDetails: null
+        isChangeTracking: true
         name: C_ADDRESS
         nullable: false
         sourceColumnReferences:
@@ -101,6 +102,7 @@ operation:
         dataType: VARCHAR(15)
         description: ""
         hashDetails: null
+        isChangeTracking: true
         name: C_PHONE
         nullable: false
         sourceColumnReferences:
@@ -116,6 +118,7 @@ operation:
         dataType: NUMBER(12,2)
         description: ""
         hashDetails: null
+        isChangeTracking: true
         name: C_ACCTBAL
         nullable: false
         sourceColumnReferences:

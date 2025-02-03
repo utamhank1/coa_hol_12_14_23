@@ -1,0 +1,7 @@
+fileVersion: 1
+id: "1"
+macroString: |+
+  {%- macro some_macro(return) -%}
+
+name: macro
+type: Macro

@@ -1,0 +1,145 @@
+fileVersion: 1
+id: 3eead0d6-e5e0-4701-b794-26efce17648b
+name: STREAM_NATION
+operation:
+  config:
+    appendOnly: false
+    initialRows: true
+    redeploymentBehavior: Create At Existing Stream
+    sourceType: Table
+  database: ""
+  deployEnabled: true
+  description: Nation Data Node description.
+  isMultisource: false
+  locationName: WORK
+  materializationType: stream
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 285c4f6b-9fde-498e-b649-f417519a2b65
+          stepCounter: 3eead0d6-e5e0-4701-b794-26efce17648b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: N_NATIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cee5d6ef-1b73-43d9-91ae-13f5978d2172
+                stepCounter: ffd12ee1-c7ba-4e2a-b022-25d073c5a2d5
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: dd97ccdd-9fcb-406c-97d0-1663a1bfe977
+          stepCounter: 3eead0d6-e5e0-4701-b794-26efce17648b
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: N_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5e8ff9e5-dbdd-4ebe-82f5-8b259dc32910
+                stepCounter: ffd12ee1-c7ba-4e2a-b022-25d073c5a2d5
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a6776bc9-ec85-4e48-bea1-1c278b7cf6b3
+          stepCounter: 3eead0d6-e5e0-4701-b794-26efce17648b
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: N_REGIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9e6321af-25db-4b52-b3ea-5696ae5065c8
+                stepCounter: ffd12ee1-c7ba-4e2a-b022-25d073c5a2d5
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ee2fc3ad-2be0-4b91-9570-d95f9519773f
+          stepCounter: 3eead0d6-e5e0-4701-b794-26efce17648b
+        config: {}
+        dataType: VARCHAR(152)
+        description: ""
+        name: N_COMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3b42d524-d748-4929-811c-617eb9cf5a63
+                stepCounter: ffd12ee1-c7ba-4e2a-b022-25d073c5a2d5
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0711bd6d-7a85-4dc9-b83d-6a4cba073e1b
+          stepCounter: 3eead0d6-e5e0-4701-b794-26efce17648b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        metadataAction: true
+        name: METADATA$ACTION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2d655c8a-33fc-4cee-8223-5e1ec95ef3ee
+          stepCounter: 3eead0d6-e5e0-4701-b794-26efce17648b
+        config: {}
+        dataType: boolean
+        defaultValue: ""
+        description: ""
+        metadataIsUpdate: true
+        name: METADATA$ISUPDATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f932472-8a9c-48c6-b5f8-7b7a7793bdc7
+          stepCounter: 3eead0d6-e5e0-4701-b794-26efce17648b
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        metadataRowID: true
+        name: METADATA$ROW_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_NATION
+        join:
+          joinCondition: FROM {{ ref('WORK', 'STG_NATION') }} "STG_NATION"
+        name: STREAM_NATION
+        noLinkRefs: []
+  name: STREAM_NATION
+  overrideSQL: false
+  schema: ""
+  sqlType: streams:::153
+  type: sql
+  version: 1
+type: Node

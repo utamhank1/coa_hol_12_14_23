@@ -5,7 +5,14 @@ operation:
   config:
     insertStrategy: INSERT
     postSQL: ""
-    preSQL: ""
+    preSQL: |-
+      ```SELECT COUNT(*) FROM {{this}};
+
+      {{ stage('Max Loadtime Pre') }}
+        SELECT MAX(LOADTIME) FROM {{this}};
+        
+      {{ stage('Load New Data') }}
+        CREATE OR REPLACE TABLE JESSE_DEV.INGEST.LINEITEM AS SELECT *, CURRENT_TIMESTAMP() AS LOADTIME FROM SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.LINEITEM LIMIT 1000;
     testsEnabled: true
     truncateBefore: true
   database: ""

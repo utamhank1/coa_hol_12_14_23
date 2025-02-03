@@ -1,11 +1,11 @@
 fileVersion: 1
-id: Stage
+id: "100"
 isDisabled: false
 metadata:
   defaultStorageLocation: null
   error: null
   nodeMetadataSpec: |
-    capitalized: Stage
+    capitalized: Copy of Stage
     short: STG
     plural: Stages
     tagColor: '#2EB67D'
@@ -58,5 +58,5 @@ metadata:
         type: textBox
         syntax: sql
         isRequired: false
-name: Stage
+name: Copy of Stage
 type: NodeType

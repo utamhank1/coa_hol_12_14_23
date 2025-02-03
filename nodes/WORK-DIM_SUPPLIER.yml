@@ -243,14 +243,16 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          STG_SUPPLIER: 84dc1d9e-3d8b-4597-819b-58383c5fa0a8
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_SUPPLIER
         join:
-          joinCondition: FROM {{ ref('WORK', 'STG_SUPPLIER') }} "STG_SUPPLIER"
+          joinCondition: |
+            FROM {{ ref('WORK', 'STG_SUPPLIER') }} "STG_SUPPLIER"
         name: DIM_SUPPLIER
         noLinkRefs: []
   name: DIM_SUPPLIER
