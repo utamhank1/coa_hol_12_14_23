@@ -1,5 +1,5 @@
 {{ stage('Run Stored Procedure') }}
-CALL DOUG_DB.PUBLIC.COALESCE_API_RUN_JOB_CHILD(
+CALL JJ_DEV.JJ_DEV_SCHEMA.COALESCE_API_RUN_JOB_CHILD(
         job_id => {{config.jobId}}, 
         environment_id => {{parameters.job_environment_id}}, 
         try_restart_child_jobs_flag => '{{parameters.job_try_restart_child_jobs}}',
