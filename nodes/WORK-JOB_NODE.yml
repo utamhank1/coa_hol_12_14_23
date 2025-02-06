@@ -1,0 +1,33 @@
+fileVersion: 1
+id: 300f5b62-12b9-46f9-9537-60aca009d404
+name: JOB_NODE
+operation:
+  config:
+    jobId: "22"
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns: []
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies: []
+        join:
+          joinCondition: ""
+        name: JOB_NODE
+        noLinkRefs: []
+  name: JOB_NODE
+  overrideSQL: false
+  schema: ""
+  sqlType: "120"
+  type: sql
+  version: 1
+type: Node

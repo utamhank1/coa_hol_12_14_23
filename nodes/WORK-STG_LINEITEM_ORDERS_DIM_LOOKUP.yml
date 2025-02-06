@@ -4,14 +4,7 @@ name: STG_LINEITEM_ORDERS_DIM_LOOKUP
 operation:
   config:
     insertStrategy: INSERT
-    postSQL: |-
-      {{ stage('TEST1') }}
-      INSERT INTO AUDIT_TABLE VALUES
-      (SELECT * FROM {{THIS}} WHERE ACCOUNT_BALANCE <0 ))
-      {{ stage('TEST2') }}
-
-
-      {{ stage('TEST3') }}
+    postSQL: ""
     preSQL: ""
     testsEnabled: true
     truncateBefore: false
@@ -20,14 +13,9 @@ operation:
   description: ""
   isMultisource: false
   locationName: WORK
-  materializationType: view
+  materializationType: table
   metadata:
-    appliedNodeTests:
-      - continueOnFailure: true
-        description: ""
-        name: Test
-        runOrder: After
-        templateString: ""
+    appliedNodeTests: []
     columns:
       - appliedColumnTests: {}
         columnReference:

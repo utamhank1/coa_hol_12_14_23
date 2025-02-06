@@ -28,7 +28,7 @@ operation:
           - columnReferences:
               - columnCounter: 2b7b0d00-df56-4f83-bbae-560632d4ac3a
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: a6dcc781-f740-4094-87de-64ae93326111
@@ -42,7 +42,7 @@ operation:
           - columnReferences:
               - columnCounter: de51af42-42d8-4cad-939e-1c6760756ce6
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 917b40a3-7173-47f3-8e33-2a6dbcb23dbc
@@ -56,7 +56,7 @@ operation:
           - columnReferences:
               - columnCounter: d7604e51-fcfc-4759-a528-bb48982bb580
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 38703c28-6838-416e-ac97-7257e37aaaee
@@ -70,7 +70,7 @@ operation:
           - columnReferences:
               - columnCounter: a58c8602-a31d-4da3-9991-30db2bdffd10
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 3a1d47c8-749b-4fd6-8b3c-b6d04a18e8e5
@@ -84,7 +84,7 @@ operation:
           - columnReferences:
               - columnCounter: 5591ca4b-38c5-48d0-ae2f-45962215b7e9
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 4307a4d9-5692-4248-be74-1f67d502132c
@@ -98,7 +98,7 @@ operation:
           - columnReferences:
               - columnCounter: 053acd78-7d9b-4a20-9b30-3490adc3b963
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 40632d7c-afda-403d-8eca-7c6f8d03f3a0
@@ -112,7 +112,7 @@ operation:
           - columnReferences:
               - columnCounter: 6f9b0e56-f7a5-4845-aec7-cc0117b7f6b4
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 66a5a449-b8a2-4689-a3b0-f067dabc9c2d
@@ -126,7 +126,7 @@ operation:
           - columnReferences:
               - columnCounter: 5e319ff8-5fce-49e7-9e37-e198c8f36ca4
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 5703e602-df8d-4ba1-b1c2-5d4526e019e1
@@ -140,7 +140,7 @@ operation:
           - columnReferences:
               - columnCounter: 8c6f4bb6-44ea-4147-871f-20ef3aadac0d
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 06908a78-a3f7-4391-8f8f-81ad1d740cc1
@@ -154,7 +154,7 @@ operation:
           - columnReferences:
               - columnCounter: 640f3e21-9a1f-4925-a929-01629c9d0a85
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 6eab7ecf-66a2-4aa7-bcf2-d0699b1b9240
@@ -168,7 +168,7 @@ operation:
           - columnReferences:
               - columnCounter: b673a163-ce88-4911-b4b1-1c2ed3f4f518
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: d1cde59e-ae64-4acd-a656-88a3090ec9bc
@@ -182,7 +182,7 @@ operation:
           - columnReferences:
               - columnCounter: 70e40370-105f-47ed-9754-43a6de6c4780
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 265dcad7-774f-4066-9869-860e1726eb34
@@ -196,7 +196,7 @@ operation:
           - columnReferences:
               - columnCounter: ce19a256-5d64-43a1-9c03-4772242873eb
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 4e7335eb-21df-43c2-a2a9-db8a752a1743
@@ -210,7 +210,7 @@ operation:
           - columnReferences:
               - columnCounter: d010437e-925a-4cd1-8cf6-eaa1c0c39e02
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: dc3aa72c-4518-4d3e-8eab-b0cf158d0bd3
@@ -224,7 +224,7 @@ operation:
           - columnReferences:
               - columnCounter: e5a6cc11-25e9-4772-8eca-5789814c1c52
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 80b70bcd-5e97-449f-9ae7-bac9f41292ec
@@ -238,7 +238,7 @@ operation:
           - columnReferences:
               - columnCounter: 6c4790c4-9d1f-4858-8b7c-388216c98f48
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: ff02768e-d0f3-4d94-bb9d-f608c4b222b9
@@ -252,7 +252,7 @@ operation:
           - columnReferences:
               - columnCounter: ee68e0db-082e-4c85-be37-49bbf0ab2dff
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 54a4f25a-8a5f-45dd-8acd-7af773bf736e
@@ -266,7 +266,7 @@ operation:
           - columnReferences:
               - columnCounter: f0ddee55-4edc-421e-9c09-5a6eac57bff2
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 46c789c2-11d7-4657-854a-066dcbbe7d8e
@@ -280,7 +280,7 @@ operation:
           - columnReferences:
               - columnCounter: c17493e6-8cc8-40eb-938c-57f64f8b62db
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 0f327d22-70b2-4a68-9be8-6c9febdd9eb1
@@ -294,7 +294,7 @@ operation:
           - columnReferences:
               - columnCounter: debd9e51-b5a4-4e76-b5b9-e558265f6bc6
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 1524061a-873e-41d0-87df-335367c11308
@@ -308,7 +308,7 @@ operation:
           - columnReferences:
               - columnCounter: ae3e2279-aeff-4777-97bb-a04325dd7152
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: c4ecfadc-8fb4-476a-b8f8-09956b99490c
@@ -322,7 +322,7 @@ operation:
           - columnReferences:
               - columnCounter: 41b1c26d-3b22-4773-bf4a-ae3c5cc61cf5
                 stepCounter: 856b6111-33a8-4cca-95fa-f92998cee980
-            transform: CASE WHEN {{ parameters.client_id }} == 1 THEN TRUE ELSE IF {{ parameters.client_id }} == 1 THEN FALSE END
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: b3c00e3a-4e27-4c54-9d5c-22a4138661bb
