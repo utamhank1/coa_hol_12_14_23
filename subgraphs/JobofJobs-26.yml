@@ -1,0 +1,9 @@
+fileVersion: 1
+id: "26"
+name: Job of Jobs
+steps:
+  - 2ad727e7-2611-4e12-b442-2be85841f95c
+  - 6ee5b2df-19f3-44bd-8cfa-ab91f91e9d74
+  - c22b8d3e-5170-43cf-8ed3-2c08d69b3084
+  - e8351860-c23f-4bc1-b822-39183b934d5a
+type: Subgraph

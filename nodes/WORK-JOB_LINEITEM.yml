@@ -1,0 +1,35 @@
+fileVersion: 1
+id: e8351860-c23f-4bc1-b822-39183b934d5a
+name: JOB_LINEITEM
+operation:
+  config:
+    jobId: "23"
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns: []
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: JOB_PARTSUPP
+        join:
+          joinCondition: FROM {{ ref('WORK', 'JOB_PARTSUPP') }} "JOB_PARTSUPP"
+        name: JOB_LINEITEM
+        noLinkRefs: []
+  name: JOB_LINEITEM
+  overrideSQL: false
+  schema: ""
+  sqlType: "120"
+  type: sql
+  version: 1
+type: Node

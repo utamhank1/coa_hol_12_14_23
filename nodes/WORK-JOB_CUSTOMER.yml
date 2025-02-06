@@ -1,0 +1,35 @@
+fileVersion: 1
+id: 6ee5b2df-19f3-44bd-8cfa-ab91f91e9d74
+name: JOB_CUSTOMER
+operation:
+  config:
+    jobId: "24"
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns: []
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: JOB_PARTSUPP
+        join:
+          joinCondition: FROM {{ ref('WORK', 'JOB_PARTSUPP') }} "JOB_PARTSUPP"
+        name: JOB_CUSTOMER
+        noLinkRefs: []
+  name: JOB_CUSTOMER
+  overrideSQL: false
+  schema: ""
+  sqlType: "120"
+  type: sql
+  version: 1
+type: Node
