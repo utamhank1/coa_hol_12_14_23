@@ -1,0 +1,96 @@
+fileVersion: 1
+id: e71928b7-66d5-49a4-ab41-d7a5a668d70c
+name: DT_WRK_REGION
+operation:
+  config:
+    baseLocation: ""
+    clusterKey: false
+    clusterKeyConfig:
+      items:
+        - {}
+    clusterKeyConfigExpressions:
+      items:
+        - {}
+    clusterKeyExpressions: false
+    downstreamOption: false
+    externalVolume: ""
+    groupByAll: false
+    initialize: ON_CREATE
+    insertStrategy: UNION ALL
+    lagSpecification:
+      items:
+        - {}
+    refresh_mode: AUTO
+    selectDistinct: false
+    warehouseName: dev_wh_xs
+  database: ""
+  deployEnabled: true
+  description: Region data as defined by TPC-H
+  isMultisource: false
+  locationName: WORK
+  materializationType: dynamic table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e7740c71-8a17-4e56-b5cb-a7b46b034c9c
+          stepCounter: e71928b7-66d5-49a4-ab41-d7a5a668d70c
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: R_REGIONKEY
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8f180b65-5cd6-4ad5-804e-ea18ec05a815
+                stepCounter: 284d082b-5581-4353-a344-b428e31608c1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5596a937-9619-4ff4-ad53-f781626f7eb6
+          stepCounter: e71928b7-66d5-49a4-ab41-d7a5a668d70c
+        config: {}
+        dataType: VARCHAR(25)
+        description: ""
+        name: R_NAME
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 072804ca-a114-4190-8f68-085b1f12ace7
+                stepCounter: 284d082b-5581-4353-a344-b428e31608c1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 424bcee5-df4a-4094-a953-9308870793ce
+          stepCounter: e71928b7-66d5-49a4-ab41-d7a5a668d70c
+        config: {}
+        dataType: VARCHAR(152)
+        description: ""
+        name: R_COMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 206217fb-6f85-4255-99c8-1ea54e61ee0e
+                stepCounter: 284d082b-5581-4353-a344-b428e31608c1
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases: {}
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: STG_REGION
+        join:
+          joinCondition: FROM {{ ref('WORK', 'STG_REGION') }} "STG_REGION"
+        name: DT_WRK_REGION
+        noLinkRefs: []
+  name: DT_WRK_REGION
+  overrideSQL: false
+  schema: ""
+  sqlType: dynamic-tables-1-1-7:::347
+  type: sql
+  version: 1
+type: Node
