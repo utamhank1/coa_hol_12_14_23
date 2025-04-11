@@ -3,7 +3,6 @@ id: 4e2bfe2b-5ff6-4657-92a1-6224b08fa7e3
 name: ORDERS
 operation:
   database: ""
-  dataset: ""
   deployEnabled: true
   description: Orders data as defined by TPC-H
   locationName: SRC
@@ -144,12 +143,9 @@ operation:
         nullable: false
         primaryKey: false
         uniqueKey: false
-    join:
-      joinCondition: FROM {{ ref('SRC', 'ORDERS') }}
   name: ORDERS
   schema: ""
   sqlType: Source
-  table: ORDERS
   type: sourceInput
   version: 1
 type: Node
