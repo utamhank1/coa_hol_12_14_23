@@ -1,0 +1,92 @@
+fileVersion: 1
+id: b3488b90-1cab-4778-a811-ddcf5e3d7321
+name: TERM_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b17fa884-97ce-464c-9b98-22041b85ff07
+          stepCounter: b3488b90-1cab-4778-a811-ddcf5e3d7321
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: TERM_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c12afff9-93ca-4b6c-a150-be744cca12b6
+          stepCounter: b3488b90-1cab-4778-a811-ddcf5e3d7321
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: TERM_START_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a63be77e-016a-46bf-840c-a09aaf953c0a
+          stepCounter: b3488b90-1cab-4778-a811-ddcf5e3d7321
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: TERM_END_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b002005e-baf3-448e-b558-ae2851aba051
+          stepCounter: b3488b90-1cab-4778-a811-ddcf5e3d7321
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_TERM_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: TERM_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

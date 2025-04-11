@@ -1,0 +1,491 @@
+fileVersion: 1
+id: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+name: STUDENT_ENTITY_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b1cf0e38-cab7-4f2c-b76a-af2dd76a432d
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_ENTITY_KEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5caeb056-0233-40e5-85b3-f4bdf1b9ceba
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: BANNER_PIDM
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a37da42d-1948-4baf-9d16-c4f7adffe619
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(15)
+        defaultValue: ""
+        description: ""
+        name: ENTITY_IDENTIFIER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d27490d0-f5e7-4ba9-8d02-43f495cf1ee0
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_LAST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c625d4c8-f971-430d-8f7d-cd1fda87190a
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_FIRST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5a0e70c4-35da-44e4-92c5-cf87f08245ff
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_MIDDLE_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5e588a20-7f58-421d-9100-7f91909ecd42
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(20)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_NAME_PREFIX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0470d164-b171-44ea-9aa9-82be0b59ad57
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(20)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_NAME_SUFFIX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 47fa999d-0272-4cee-a65b-d3a52eea056b
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(128)
+        defaultValue: ""
+        description: ""
+        name: VIRGINIA_TECH_EMAIL_ADDRESS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2aaa2f5e-eba9-45a2-9944-bcf735691053
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: BIRTHDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 88df1a03-3412-4f1b-b062-a32fda2c7799
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: GENDER_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5db339fd-d890-4bf6-bc0c-b2d58be701d7
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_CONFIDENTIAL_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 14dd71e3-bb5b-4f5e-b1a6-02db4553dfdd
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: DECEASED_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 10a30938-0174-47ed-a91f-43ad7a8eebad
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: CITIZENSHIP_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1a75636a-ae48-416d-87ae-8115c3310596
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_ADDR_STREET_LINE1
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6995678f-92a5-4223-a247-1fc31da9dcb6
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_ADDR_STREET_LINE2
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e5bff0a8-cda9-40b8-af4e-7736165a6486
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_ADDR_STREET_LINE3
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c5c5bd01-13d3-46c5-821a-e314c4b83906
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_ADDR_CITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 90924c18-cbad-451e-9c67-299e7370f82c
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(3)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_ADDR_STATE_ABREV
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cff9f795-1d29-41d5-a22e-6a92e695ea1d
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_ADDR_ZIP_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e6db908f-ab5c-4af6-a5d2-010933ad9594
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(5)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_ADDR_COUNTY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ae7fff43-9446-4f21-b469-94350cb1e2c3
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_PHONE_AREA_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 14980d42-7b86-4915-848c-94f11d4e1944
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(12)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_PHONE_NUM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b6236c19-1946-4cf5-ba30-44f6756c21df
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: PERMANENT_PHONE_EXTENSION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 69298f92-6d1c-4f6a-bb25-3653dd5d1590
+          stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: CENSUS_LEGACY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: STUDENT_ENTITY_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

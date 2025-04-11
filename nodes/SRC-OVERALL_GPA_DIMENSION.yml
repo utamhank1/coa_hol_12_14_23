@@ -1,0 +1,187 @@
+fileVersion: 1
+id: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+name: OVERALL_GPA_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 692e2822-601e-4ecd-8696-2323a7ac0288
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: BANNER_PIDM
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7d6acfe2-bd2f-4176-9916-e979bd7a7f44
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_LEVEL_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e18bff32-8e0a-48a0-94bd-152b7f69be65
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: OVERALL_HOURS_ATTEMPTED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e40e79c9-d674-46bf-84de-04307be684cd
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: OVERALL_HOURS_EARNED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4e1ad4ce-0c40-452d-bcc3-6134c360fa84
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: OVERALL_GPA_HOURS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: efcc50b6-f98b-435a-9424-9a5520f97c82
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: OVERALL_QUALITY_POINTS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0dd61d3e-bf92-4a26-90d6-caaab0998204
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: NUMBER(10,6)
+        defaultValue: ""
+        description: ""
+        name: OVERALL_GPA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af2124b9-2bcb-4553-b833-da44103f1b4e
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: OVERALL_HOURS_PASSED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 429c545c-4b36-41f3-9946-f21bcd41f89a
+          stepCounter: 1b64ded4-e5cc-49e7-990e-2b93a5c2af50
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_RECORD_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: OVERALL_GPA_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

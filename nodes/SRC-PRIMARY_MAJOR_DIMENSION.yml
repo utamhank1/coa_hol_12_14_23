@@ -1,0 +1,149 @@
+fileVersion: 1
+id: 252266bc-c72e-48b4-a9c9-18af1829a528
+name: PRIMARY_MAJOR_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 619436dd-ac2f-44ea-8cb0-445ba7325562
+          stepCounter: 252266bc-c72e-48b4-a9c9-18af1829a528
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: BANNER_PIDM
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: de9e4c0a-c655-424d-b743-ac1c37cd0155
+          stepCounter: 252266bc-c72e-48b4-a9c9-18af1829a528
+        config: {}
+        dataType: VARCHAR(4)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_MAJOR_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 47edfaf2-a3c8-425d-b0a4-952c3056462f
+          stepCounter: 252266bc-c72e-48b4-a9c9-18af1829a528
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_MAJOR_LEVEL_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b09ba87d-6949-4292-9da4-bad563355e38
+          stepCounter: 252266bc-c72e-48b4-a9c9-18af1829a528
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_MAJOR_DEGREE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 287279f3-31a7-400a-a808-a6f866ea2835
+          stepCounter: 252266bc-c72e-48b4-a9c9-18af1829a528
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_MAJOR_COLLEGE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7116985-b01a-4e53-85bb-c34ac349ef3f
+          stepCounter: 252266bc-c72e-48b4-a9c9-18af1829a528
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_MAJOR_EFFECTIVE_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe20dee8-cb1d-48fa-ae69-53f73293268e
+          stepCounter: 252266bc-c72e-48b4-a9c9-18af1829a528
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_RECORD_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: PRIMARY_MAJOR_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

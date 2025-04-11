@@ -1,0 +1,92 @@
+fileVersion: 1
+id: ed7d81dc-ad46-4858-9ebc-de568804008a
+name: HIGH_SCHOOL_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9abb8dcf-0e7a-4cce-8b97-596d68fee6f3
+          stepCounter: ed7d81dc-ad46-4858-9ebc-de568804008a
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_KEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dc2e4c28-a004-4502-8dec-3017db62d2b7
+          stepCounter: ed7d81dc-ad46-4858-9ebc-de568804008a
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_DESC
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c18dd5b-4725-4f97-a5e4-0454a859633b
+          stepCounter: ed7d81dc-ad46-4858-9ebc-de568804008a
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_ADDR_CITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2d7d475a-aa44-4af2-a39d-424aa21fa97f
+          stepCounter: ed7d81dc-ad46-4858-9ebc-de568804008a
+        config: {}
+        dataType: VARCHAR(3)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_ADDR_STATE_ABREV
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: HIGH_SCHOOL_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

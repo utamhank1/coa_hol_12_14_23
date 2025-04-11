@@ -1,0 +1,149 @@
+fileVersion: 1
+id: c4c140e4-b781-4f7f-b139-df430e1b08b9
+name: PRIMARY_CONCENTRATION_DIM
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7fede90e-802e-44b2-81b6-38331b755a31
+          stepCounter: c4c140e4-b781-4f7f-b139-df430e1b08b9
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: BANNER_PIDM
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8a81ff21-f138-41e8-86ba-16bc826aa6f0
+          stepCounter: c4c140e4-b781-4f7f-b139-df430e1b08b9
+        config: {}
+        dataType: VARCHAR(4)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONCENTRATION_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 38715826-1ac5-465e-b788-3d1eeeccbdc0
+          stepCounter: c4c140e4-b781-4f7f-b139-df430e1b08b9
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONC_LEVEL_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7d5db1b9-9098-4ec4-a289-aadf684385b5
+          stepCounter: c4c140e4-b781-4f7f-b139-df430e1b08b9
+        config: {}
+        dataType: VARCHAR(4)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONC_MAJOR_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9e4d5161-ca04-4ed9-85d7-5b46312eb3d1
+          stepCounter: c4c140e4-b781-4f7f-b139-df430e1b08b9
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONC_FROM_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7812dd82-d8fc-48a8-a4ba-aa5c14c6c1d0
+          stepCounter: c4c140e4-b781-4f7f-b139-df430e1b08b9
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONC_TO_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe1c3664-e370-4fec-a389-bc8d6eec6989
+          stepCounter: c4c140e4-b781-4f7f-b139-df430e1b08b9
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_RECORD_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: PRIMARY_CONCENTRATION_DIM
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

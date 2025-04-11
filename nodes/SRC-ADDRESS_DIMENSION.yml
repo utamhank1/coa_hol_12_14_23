@@ -1,0 +1,301 @@
+fileVersion: 1
+id: 4de715e2-189a-4bf0-9560-7686ad034ff4
+name: ADDRESS_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af423bf7-9c3f-4210-b195-28817cbd8594
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ENTITY_KEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ea0ca003-f7be-4cc6-9d8f-68413e10899c
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: ADDRESS_TYPE_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 98418eb8-e092-4743-ba14-07b56bbeac7f
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ADDRESS_SEQUENCE_NUM
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 40fc2601-3b90-4798-8493-419cf3f95168
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: STREET_LINE1
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fecd835d-a669-4dd5-b9dd-8db2c800f5b7
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: STREET_LINE2
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: add0481d-52ef-46cd-a267-a72efe8858f4
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: STREET_LINE3
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 08d374e7-fca8-41f7-ad2a-f2193feb855a
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: CITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 92e7fcc8-f6a5-4c67-b8ec-e91048f553ce
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(3)
+        defaultValue: ""
+        description: ""
+        name: STATE_ABREV
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e08fab41-a352-467c-9c6e-239aab4cf0ee
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: ZIP_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bbf070a3-8740-41b1-94e6-d7feb004334d
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(5)
+        defaultValue: ""
+        description: ""
+        name: COUNTY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c302bd29-5241-4838-860f-3fbbbfb00d61
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(5)
+        defaultValue: ""
+        description: ""
+        name: NATION_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d24edb43-a6fb-4b3d-9630-47ab21117ff4
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: ADDRESS_TELEPHONE_AREA_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 45d278a3-6bbc-489d-9f28-1767f09d6185
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(12)
+        defaultValue: ""
+        description: ""
+        name: ADDRESS_TELEPHONE_NUM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a62e5ce0-f198-40ab-ad13-e46140dae0d1
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: ADDRESS_TELEPHONE_EXTENSION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 80dba146-3d3b-4051-913b-4bc97a0cf7a9
+          stepCounter: 4de715e2-189a-4bf0-9560-7686ad034ff4
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: ADDRESS_TELEPHONE_CONFID_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: ADDRESS_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

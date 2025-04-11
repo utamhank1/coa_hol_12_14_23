@@ -1,0 +1,187 @@
+fileVersion: 1
+id: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+name: TERM_GPA_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d2deb53a-41b2-40a2-baa8-6dddd1f29ff8
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: BANNER_PIDM
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 00d59bf7-5ffd-4c25-995d-ba5e01a137a1
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: TERM_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3699bc7b-83d5-4d72-9c19-9ec2180d758c
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: LEVEL_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d30af996-9d41-4bfa-90b7-443fa34c7dfa
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: TERM_HOURS_ATTEMPTED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9568cd42-6fb7-443a-8540-c8201e568891
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: TERM_HOURS_EARNED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: faa11217-d2e4-4ef5-8f7d-6a2468c9f493
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: TERM_GPA_HOURS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 704f3f23-3937-4d3a-b7c2-768579816994
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: TERM_QUALITY_POINTS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bacc9b05-5e8d-4483-b962-061ea4fb910a
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: NUMBER(10,6)
+        defaultValue: ""
+        description: ""
+        name: TERM_GPA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3042aee0-2e36-456d-9aad-e70417d46562
+          stepCounter: 28a7e1f8-1863-48a1-8faa-55c7d3c8f17c
+        config: {}
+        dataType: NUMBER(10,2)
+        defaultValue: ""
+        description: ""
+        name: TERM_HOURS_PASSED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: TERM_GPA_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

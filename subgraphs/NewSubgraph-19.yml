@@ -1,20 +1,5 @@
 fileVersion: 1
 id: "19"
 name: New Subgraph
-steps:
-  - 07cb85d8-7f85-4026-9a99-f85a65b5f8db
-  - 30305b38-c8a2-4583-80ec-c8b4d0f46075
-  - 4003ba91-33a0-4966-8039-04f606ecd90f
-  - 46ba1b27-f4e5-4e58-85ff-b28afa2a359a
-  - 4e2bfe2b-5ff6-4657-92a1-6224b08fa7e3
-  - 552837fa-be9d-4ab5-9795-a579fd04b073
-  - 6baa7427-cfa7-41d7-a63c-9a025aef5dba
-  - 800b6db5-2671-4978-b8a4-fe427e4b9e24
-  - 84dc1d9e-3d8b-4597-819b-58383c5fa0a8
-  - 856b6111-33a8-4cca-95fa-f92998cee980
-  - 91683470-1def-4a69-bc14-6fd7246d26be
-  - b2fcf73b-7bd0-47a4-99c2-1403d448da62
-  - d3f05a0b-2f02-4127-960f-70f244e44fbf
-  - eebe5246-a2c7-40e0-9d09-47eef8d5ebc5
-  - fa61b2df-e4c9-4c8a-b992-a2607e18a407
+steps: []
 type: Subgraph

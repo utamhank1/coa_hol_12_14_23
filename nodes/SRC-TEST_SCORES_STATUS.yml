@@ -1,0 +1,130 @@
+fileVersion: 1
+id: 0847fa6e-15ff-4c69-bc2e-eb8196f981a5
+name: TEST_SCORES_STATUS
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 97d85321-dd7a-4a89-a550-af043dc51a56
+          stepCounter: 0847fa6e-15ff-4c69-bc2e-eb8196f981a5
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ENTITY_KEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a5ebfb07-fa78-4123-8430-3f5aa33d8968
+          stepCounter: 0847fa6e-15ff-4c69-bc2e-eb8196f981a5
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: BANNER_PIDM
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1eb6a5a2-72e1-4c5c-b06e-b5b8aa087cce
+          stepCounter: 0847fa6e-15ff-4c69-bc2e-eb8196f981a5
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: TEST_SCORE_TYPE_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 185d0c4a-a9db-45f1-b53d-c9a769ba8230
+          stepCounter: 0847fa6e-15ff-4c69-bc2e-eb8196f981a5
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: RAW_SCORE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef271a07-cad5-42d5-aa36-d0b922669c20
+          stepCounter: 0847fa6e-15ff-4c69-bc2e-eb8196f981a5
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: ACTIVITY_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 418de4b7-2605-4872-8efe-50e40bfe5ae5
+          stepCounter: 0847fa6e-15ff-4c69-bc2e-eb8196f981a5
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_RECORD_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: TEST_SCORES_STATUS
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,168 @@
+fileVersion: 1
+id: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+name: ENTITY_HIGH_SCHOOL
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 04bc6eec-5fb8-49e9-b59a-c15ce893a2b6
+          stepCounter: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ENTITY_KEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 07de269e-ffc9-4e0d-9da0-0cf17535033d
+          stepCounter: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_KEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6d8e0b2a-3405-4603-82ae-b11f674d0fa2
+          stepCounter: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a2f927d6-9de2-4373-aa70-c9f0119e383b
+          stepCounter: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_CLASS_RANK
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8d6de54d-c9aa-4932-9df1-d9a3068d967f
+          stepCounter: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_CLASS_SIZE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cfaf86cb-209b-45f1-bdb5-ce7a64610db2
+          stepCounter: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+        config: {}
+        dataType: NUMBER(4,3)
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_GPA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 48100229-ec83-4366-b6f3-efc01735e9b9
+          stepCounter: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: HIGH_SCHOOL_GRADUATION_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9e765a7c-321c-4b9f-8869-0f552b35a26d
+          stepCounter: 46cfa27c-cc8f-4bca-bc93-f8b10c34672b
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: ACTIVITY_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: ENTITY_HIGH_SCHOOL
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

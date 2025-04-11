@@ -1,0 +1,149 @@
+fileVersion: 1
+id: 33f836d9-3f25-4d73-bcc7-2b8f8d39ebcb
+name: ENTITY_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: da38643d-7bb1-4a56-87fa-9fd5e109a27e
+          stepCounter: 33f836d9-3f25-4d73-bcc7-2b8f8d39ebcb
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ENTITY_KEY
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 22ff3ff7-eda8-4fbb-8cbd-20ee2b569fa7
+          stepCounter: 33f836d9-3f25-4d73-bcc7-2b8f8d39ebcb
+        config: {}
+        dataType: VARCHAR(15)
+        defaultValue: ""
+        description: ""
+        name: SSN_FIN_NUM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 83fbe846-1700-48ec-95ac-31265765b5bb
+          stepCounter: 33f836d9-3f25-4d73-bcc7-2b8f8d39ebcb
+        config: {}
+        dataType: VARCHAR(5)
+        defaultValue: ""
+        description: ""
+        name: CITIZENSHIP_NATION_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5f884d16-fa2a-4728-8500-e89e3bf1269e
+          stepCounter: 33f836d9-3f25-4d73-bcc7-2b8f8d39ebcb
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: CITIZENSHIP_NATION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9c268423-c8f2-469a-a2a4-439c1ee6fa10
+          stepCounter: 33f836d9-3f25-4d73-bcc7-2b8f8d39ebcb
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: VISA_TYPE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 24ae8c69-8cc0-44d9-a2ac-58ac8bd5fc2e
+          stepCounter: 33f836d9-3f25-4d73-bcc7-2b8f8d39ebcb
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: VISA_EXPIRATION_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 54ce22c5-6ea5-42bd-954e-c8ecc51a783b
+          stepCounter: 33f836d9-3f25-4d73-bcc7-2b8f8d39ebcb
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: CENSUS_RACE_CONCATENATION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: ENTITY_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

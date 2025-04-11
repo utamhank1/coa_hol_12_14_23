@@ -1,0 +1,54 @@
+fileVersion: 1
+id: 4e14cc62-9db9-486e-b3a3-e2a861ff2471
+name: STUDENT_STATUS_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0b273d16-4ce2-47d4-b6c1-ea025e20c343
+          stepCounter: 4e14cc62-9db9-486e-b3a3-e2a861ff2471
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_STATUS_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc1cc07c-eddf-40e1-b7cf-2621779147b0
+          stepCounter: 4e14cc62-9db9-486e-b3a3-e2a861ff2471
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_STATUS_DESC
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: STUDENT_STATUS_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

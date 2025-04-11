@@ -1,0 +1,1654 @@
+fileVersion: 1
+id: 540690b4-0bfe-49e4-becf-68aa5feae606
+name: V_NODE
+operation:
+  config:
+    insertStrategy: UNION
+    selectDistinct: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3ce7eeb-e4a8-4d4c-8042-dc0848e590c4
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: BANNER_PIDM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5b27def6-dfb9-4db1-b4f1-880e752784ae
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(15)
+        defaultValue: ""
+        description: ""
+        name: ENTITY_IDENTIFIER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 86fa0574-c730-4483-8044-2254f5e43a53
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(15)
+        defaultValue: ""
+        description: ""
+        name: SSN_FIN_NUM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f7cb0b1e-dbdd-4878-8ff4-f9d752b6ce3d
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_LAST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d27490d0-f5e7-4ba9-8d02-43f495cf1ee0
+                stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f04f29cb-575b-4616-953f-9a4e24314daa
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_FIRST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c625d4c8-f971-430d-8f7d-cd1fda87190a
+                stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ee09f947-ef3c-423c-bd5c-e5fcec1aa5e3
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_MIDDLE_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5a0e70c4-35da-44e4-92c5-cf87f08245ff
+                stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43ba03fb-9c07-46d0-9595-b13b63729009
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(20)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_NAME_PREFIX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5e588a20-7f58-421d-9100-7f91909ecd42
+                stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2bf6ae9f-098a-4c66-b773-7001257d2975
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(20)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_NAME_SUFFIX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0470d164-b171-44ea-9aa9-82be0b59ad57
+                stepCounter: 2ae38ab6-7ee2-4b7e-b08e-3af68d4c1173
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3046582e-b308-473d-b7a6-2027cba8a250
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PR_ADDRESS_TYPE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c6bfe4be-ab84-4592-b128-56c4563106de
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: PR_STREET_LINE1
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7e9f6b1c-1ca3-4e32-b394-950644f1417d
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: PR_STREET_LINE2
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c14b5cd3-1058-4f9e-9bb1-0ca52881f78b
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(75)
+        defaultValue: ""
+        description: ""
+        name: PR_STREET_LINE3
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3726f1bf-098a-46eb-ba81-28869d3f9f54
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: PR_CITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1d99bbb1-af01-4156-8a30-4bf455f93409
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(3)
+        defaultValue: ""
+        description: ""
+        name: PR_STATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b6a5e4ff-0946-4aa2-aabb-964df3a9442e
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: PR_ZIP_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4acc92c7-e09e-4ce1-ae95-ad7e2b924a1b
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(5)
+        defaultValue: ""
+        description: ""
+        name: PR_COUNTY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3c86f5e-b441-47ee-97be-514ec2527601
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: PR_PHONE_AREA_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af7fba4d-cda1-447e-9f43-5e8dd6a2bde2
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(12)
+        defaultValue: ""
+        description: ""
+        name: PR_PHONE_NUM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fd14c1fe-9b68-4197-b2ca-cb024c800f1f
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: PR_PHONE_EXTENSION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 67631c82-2854-44bd-902e-5748292cc1a4
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: CURRENT_TERM
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4b524dda-7bd6-487f-b3e2-8e60173cf689
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: TERM
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0be39082-243b-4aa1-a8ee-887b8d381d8e
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(128)
+        defaultValue: ""
+        description: ""
+        name: EMAIL_ADDRESS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ee5c1bd-0a54-488a-8287-240282e9441c
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: BIRTH_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 62b4fc8e-c3cb-4cfb-96e0-c6d1905ceb45
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ETHNICITY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d3ebd947-6a67-40a1-9ce3-0da8c6e91705
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: GENDER_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1c29ae3b-8e29-4e22-8ac1-9708cff4362e
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_CONFIDENTIAL_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 31f2ed33-7adc-43ce-9b4e-01bd785fdbc8
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: DECEASED_IND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cbd70ece-1045-4e50-87eb-47765845bfa0
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: CITIZENSHIP_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8c0156fc-aac3-471a-902b-70c174daefe2
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_STATUS_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 51413973-d19a-4d76-a36e-9748ceb071d1
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_LEVEL_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0342fbcb-8e3c-4cea-9ed6-4ae91b657d9b
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: STUDENT_TYPE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 86e89b8b-6680-4661-bb59-11a12161eaf9
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: GRADUATION_CATEGORY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 203fdd83-d359-4225-83f6-fed5b084d092
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: SPECIAL_CATEGORY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 16b75b65-6045-42a3-aa89-15ebc8b146e7
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: UNDERGRAD_CATEGORY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9863c429-cf11-465e-a072-c6ba4d0888f6
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: TEACHER_CATEGORY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2835a122-20c1-47d2-87cb-5503881f26f2
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: EXCHANGE_CATEGORY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5063ed5a-cbe5-432c-ba8d-e1681ad7be12
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ACAD_COMMON_MARKET_ELIGIBLE_CATEGORY_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 62160da0-57b7-4a4a-9f2d-b16ae9a88c5d
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: ADMIT_TERM_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 055e28a7-b8ed-4c19-b11c-f433706c5903
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(3)
+        defaultValue: ""
+        description: ""
+        name: CAMPUS_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 582f5c2a-50be-4ae0-a3a4-9f659e63824e
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(3)
+        defaultValue: ""
+        description: ""
+        name: SITE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 35218301-ed5c-4ce2-a5d5-68ac67fe701e
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: RESIDENCE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a34ba9fb-2b34-4cc9-9a4c-2ae7696065cd
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: DEGREE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 86651041-4055-44a5-a5b1-af1d1797a2a9
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: COLLEGE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fcd8525e-9ebc-4a12-872e-e62a7d5a8731
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(4)
+        defaultValue: ""
+        description: ""
+        name: MAJOR_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e202af75-2299-40f4-bc67-dabe91bb5b00
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONCENTRATION_CODE1
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 847d1d1a-8089-419e-8333-889f8e547331
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONCENTRATION_CODE2
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a9fd7cb0-ed6b-44fa-aa91-f15baf507e12
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONCENTRATION_CODE3
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89c4dd09-fef2-46b0-bfcf-b1295762c678
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PREVIOUS_MAJOR_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5331bebf-168d-4294-8777-c67d756525c9
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ROTC_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0328059c-8334-4787-9678-c2efa51fc59d
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: HONORS_ELIGIBLE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3d562772-88ed-4e07-877e-b7d251b2cf7e
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: HONORS_PARTICIPANT_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 759ae631-bbdb-4553-b4db-5cd353106187
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: COOP_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d969c4e9-a5ea-41bf-a105-c540986f8696
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(5)
+        defaultValue: ""
+        description: ""
+        name: CITIZENSHIP_NATION_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: df684033-25de-4426-947e-6912d9cbb3a8
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: CITIZENSHIP_NATION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f7241c0e-80d3-4d7c-b652-b288b6b7f3d0
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: VISA_TYPE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cea4998f-f07f-415c-bc05-4b197c5fa31a
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: VISA_NUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 425181ec-8f38-4c21-8963-7a22fbb17134
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: VISA_ISSUE_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe6c004a-1459-4aa4-b4a8-46f78d45246c
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: VISA_EXPIRATION_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: aee6b8a9-d79b-43aa-a907-6ad79005c638
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: ENTRY_STUDENT_TYPE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: be0f51f3-f459-4f42-a993-ee1b8c1bc8c8
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PRE_PROFESSIONAL_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 637561fe-712e-4060-8999-c9401addf44f
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: VETERANS_HOURS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1b915d3e-e503-4de6-824e-46ba3bc04cb9
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: OVERALL_TYPE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 12c86e66-06d4-4ba6-a49a-c885f60d1f75
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: DIRECT_PHD_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c03d368d-40b5-4f89-8013-fb4ad363a682
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ELECTRONIC_MBA_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 36b4fe89-0770-49ee-b4bc-2a1ae8414386
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: FIFTH_YEAR_STUDENT_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 25da9934-33a7-4455-806e-af901b9b6ad1
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: FIFTH_YEAR_ARCHTECTURE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 42290124-6796-4e57-b557-e9acf08c659f
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ENTERPRISE_FUND_INSTATE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0a1ad623-34f9-4d26-b048-0240a55c58a5
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ENTERPRISE_FUND_OUTSTATE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 83ff2b44-5250-432d-a4ee-20f6d80bf2d7
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: RATE_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4e05af99-96a5-4f2b-8b80-d284ba3ed0e2
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PROFESSIONAL_MBA_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4804d4e5-1e64-4be8-9595-0cdb557493c1
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: FIRSTGEN
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 809c2d42-21fa-4983-a026-7d5103ada80f
+          stepCounter: 540690b4-0bfe-49e4-becf-68aa5feae606
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: SOLID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED: d90d9097-b361-4188-81e1-39171c59f1fa
+        customSQL:
+          customSQL: |-
+            {{ stage('Override Create SQL') }}
+            	CREATE OR REPLACE VIEW {{ ref('WORK', 'V_NODE')}} AS (
+            		SELECT  
+            LPAD(ED.BANNER_PIDM, 8, '0' ) AS BANNER_PIDM, 
+            ED.ENTITY_IDENTIFIER AS ENTITY_IDENTIFIER, 
+            ED_D.SSN_FIN_NUM AS SSN_FIN_NUM, 
+            ED.CURRENT_LAST_NAME AS CURRENT_LAST_NAME, 
+            ED.CURRENT_FIRST_NAME AS CURRENT_FIRST_NAME, 
+            ED.CURRENT_MIDDLE_NAME AS CURRENT_MIDDLE_NAME,
+            ED.CURRENT_NAME_PREFIX AS CURRENT_NAME_PREFIX, 
+            ED.CURRENT_NAME_SUFFIX AS CURRENT_NAME_SUFFIX, 
+            CASE WHEN ED.PERMANENT_ADDR_STREET_LINE1 IS NOT NULL THEN 'PR' ELSE NULL END AS PR_ADDRESS_TYPE_CODE,
+            ED.PERMANENT_ADDR_STREET_LINE1 AS PR_STREET_LINE1,
+            ED.PERMANENT_ADDR_STREET_LINE2 AS PR_STREET_LINE2,
+            ED.PERMANENT_ADDR_STREET_LINE3 AS PR_STREET_LINE3,
+            ED.PERMANENT_ADDR_CITY AS PR_CITY,
+            ED.PERMANENT_ADDR_STATE_ABREV AS PR_STATE,
+            ED.PERMANENT_ADDR_ZIP_CODE AS PR_ZIP_CODE,
+            ED.PERMANENT_ADDR_COUNTY AS PR_COUNTY_CODE, 
+            ED.PERMANENT_PHONE_AREA_CODE AS PR_PHONE_AREA_CODE,
+            ED.PERMANENT_PHONE_NUM AS PR_PHONE_NUM,
+            ED.PERMANENT_PHONE_EXTENSION AS PR_PHONE_EXTENSION,
+            (SELECT TERM_CODE FROM JJ_DEV.VTECH_SRC.TERM_DIMENSION TD WHERE CURRENT_TERM_IND = 'Y' ) AS CURRENT_TERM ,
+            SD.EFFECTIVE_TERM_CODE AS TERM, 
+            ED.VIRGINIA_TECH_EMAIL_ADDRESS AS EMAIL_ADDRESS,
+            to_char(ED.BIRTHDATE, 'YYYYMMDD') AS BIRTH_DATE , 
+            ED_D.CENSUS_RACE_CONCATENATION AS ETHNICITY_CODE , 
+            ED.GENDER_CODE AS GENDER_CODE, 
+            ED.STUDENT_CONFIDENTIAL_IND AS STUDENT_CONFIDENTIAL_IND, 
+            CASE WHEN ED.DECEASED_IND = 'Y' THEN 'Y' ELSE NULL END AS DECEASED_IND, 
+            ED.CITIZENSHIP_CODE AS CITIZENSHIP_CODE, 
+            SD.STUDENT_STATUS_CODE AS STUDENT_STATUS_CODE,
+            SD.STUDENT_LEVEL_CODE AS STUDENT_LEVEL_CODE,  
+            SD.STUDENT_TYPE_CODE AS STUDENT_TYPE_CODE, 
+            STUD_ATTR.GRADCAT AS GRADUATION_CATEGORY_CODE,
+            STUD_ATTR.SPECCAT AS SPECIAL_CATEGORY_CODE,
+            STUD_ATTR.UGCAT AS UNDERGRAD_CATEGORY_CODE, 
+            STUD_ATTR.TCHED AS TEACHER_CATEGORY_CODE, 	
+            STUD_ATTR.EXCH AS EXCHANGE_CATEGORY_CODE ,	
+            STUD_ATTR.ACME AS ACAD_COMMON_MARKET_ELIGIBLE_CATEGORY_CODE,
+            CASE WHEN SD.MATRICULATION_TERM_CODE IS NULL THEN SD_MIN.MATRICULATION_TERM_CODE ELSE SD.MATRICULATION_TERM_CODE END AS ADMIT_TERM_CODE,
+            SD.CAMPUS_CODE AS CAMPUS_CODE,
+            SD.SITE_CODE AS SITE_CODE,
+            SD.RESIDENCE_CODE AS RESIDENCE_CODE,
+            MAJ_DEG_COLL.PRIMARY_MAJOR_DEGREE_CODE AS DEGREE_CODE,
+            MAJ_DEG_COLL.PRIMARY_MAJOR_COLLEGE_CODE AS COLLEGE_CODE , 
+            MAJ_DEG_COLL.PRIMARY_MAJOR_CODE AS MAJOR_CODE, 
+            CASE WHEN MAJ_CONC.CONC1_PRIMARY_CONCENTRATION_CODE IS NULL THEN CONC_DATA.CONC1 ELSE MAJ_CONC.CONC1_PRIMARY_CONCENTRATION_CODE END AS PRIMARY_CONCENTRATION_CODE1,
+            CASE WHEN MAJ_CONC.CONC2_PRIMARY_CONCENTRATION_CODE IS NULL THEN CONC_DATA.CONC2 ELSE MAJ_CONC.CONC2_PRIMARY_CONCENTRATION_CODE END AS PRIMARY_CONCENTRATION_CODE2, 
+            CASE WHEN MAJ_CONC.CONC3_PRIMARY_CONCENTRATION_CODE IS NULL THEN CONC_DATA.CONC3 ELSE MAJ_CONC.CONC3_PRIMARY_CONCENTRATION_CODE END AS PRIMARY_CONCENTRATION_CODE3,
+            MAJ_CONC.MAJ_PREV AS PREVIOUS_MAJOR_CODE,	
+            STUD_ATTR.CORPS AS ROTC_CODE,
+            STUD_ATTR.HNRE AS HONORS_ELIGIBLE_CODE, 
+            STUD_ATTR.HNRS AS HONORS_PARTICIPANT_CODE,
+            STUD_ATTR.COOP AS COOP_CODE,
+            ED_D.CITIZENSHIP_NATION_CODE AS CITIZENSHIP_NATION_CODE , 
+            ED_D.CITIZENSHIP_NATION AS CITIZENSHIP_NATION, 
+            ED_D.VISA_TYPE_CODE AS VISA_TYPE_CODE , 
+            NULL AS VISA_NUMBER, 
+            NULL AS VISA_ISSUE_DATE,  
+            ED_D.VISA_EXPIRATION_DATE AS VISA_EXPIRATION_DATE, 
+            SD_MIN.STUDENT_TYPE_CODE AS ENTRY_STUDENT_TYPE_CODE,
+            STUD_ATTR.PREPROF AS PRE_PROFESSIONAL_CODE,
+            NULL AS VETERANS_HOURS,
+            'O' AS OVERALL_TYPE_CODE,  
+            STUD_ATTR.GDIR AS DIRECT_PHD_CODE,
+            STUD_ATTR.EMBA AS ELECTRONIC_MBA_CODE,
+            STUD_ATTR.FIFTH AS FIFTH_YEAR_STUDENT_CODE,
+            STUD_ATTR.FI AS FIFTH_YEAR_ARCHTECTURE_CODE,
+            STUD_ATTR.ENTI AS ENTERPRISE_FUND_INSTATE_CODE,
+            STUD_ATTR.ENTO AS ENTERPRISE_FUND_OUTSTATE_CODE,
+            SD.RATE_CODE AS RATE_CODE, 
+            STUD_ATTR.PMBA AS PROFESSIONAL_MBA_CODE,  
+            CASE WHEN ED.CENSUS_LEGACY_CODE IN ('F', 'Y') THEN 'Y' ELSE 'N' END AS FIRSTGEN, 
+            NULL AS SOLID 
+            FROM JJ_DEV.VTECH_SRC.STUDENT_ENTITY_DIMENSION ED 
+            INNER JOIN (   SELECT SD.* 
+                        FROM JJ_DEV.VTECH_SRC.STUDENT_DIMENSION SD 
+                        WHERE SD.CURRENT_RECORD_IND = 'Y' 
+                        AND SD.EFFECTIVE_TERM_CODE = (SELECT MAX(EFFECTIVE_TERM_CODE) FROM JJ_DEV.VTECH_SRC.STUDENT_DIMENSION A 
+                        INNER JOIN (
+                        SELECT TERM_CODE AS CUR_TERM, to_char(year_past)||substr(TERM_CODE,5,2) AS PAST_TERM 
+                        FROM (
+                        SELECT TERM_CODE, to_number(substr(TERM_CODE,1,4)) - 20 AS year_past FROM JJ_DEV.VTECH_SRC.TERM_DIMENSION TD WHERE CURRENT_TERM_IND = 'Y' 
+                        )X )TERMS 
+                        ON A.EFFECTIVE_TERM_CODE between TERMS.PAST_TERM AND TERMS.CUR_TERM  
+                                          WHERE A.BANNER_PIDM = SD.BANNER_PIDM 
+                                          AND A.CURRENT_RECORD_IND = 'Y' )
+               ) SD 
+            ON ED.BANNER_PIDM = SD.BANNER_PIDM 
+            INNER JOIN JJ_DEV.VTECH_SRC.ENTITY_DIMENSION ED_D 
+            ON ED.STUDENT_ENTITY_KEY = ED_D.ENTITY_KEY 
+            LEFT JOIN ( SELECT DISTINCT STPCF.BANNER_PIDM, STPCF.TERM_CODE, PMD.PRIMARY_MAJOR_LEVEL_CODE, PMD.PRIMARY_MAJOR_DEGREE_CODE, PMD.PRIMARY_MAJOR_COLLEGE_CODE , PMD.PRIMARY_MAJOR_CODE,
+            ROW_NUMBER() OVER (PARTITION BY PMD.BANNER_PIDM, PMD.PRIMARY_MAJOR_LEVEL_CODE, PMD.PRIMARY_MAJOR_CODE  ORDER BY PMD.PRIMARY_MAJOR_EFFECTIVE_DATE DESC ) AS ROW_NUM 
+            FROM JJ_DEV.VTECH_SRC.STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED STPCF 
+            INNER JOIN JJ_DEV.VTECH_SRC.PRIMARY_MAJOR_DIMENSION PMD 
+            ON STPCF.BANNER_PIDM = PMD.BANNER_PIDM 
+            AND STPCF.PRIMARY_CONC_MAJOR_CODE = PMD.PRIMARY_MAJOR_CODE 
+            AND PMD.CURRENT_RECORD_IND = 'Y' ) MAJ_DEG_COLL 
+            ON MAJ_DEG_COLL.BANNER_PIDM = SD.BANNER_PIDM   
+            AND MAJ_DEG_COLL.TERM_CODE = SD.EFFECTIVE_TERM_CODE  
+            AND MAJ_DEG_COLL.PRIMARY_MAJOR_LEVEL_CODE = SD.STUDENT_LEVEL_CODE 
+            AND MAJ_DEG_COLL.ROW_NUM = 1 
+            LEFT JOIN (
+            SELECT CONC.BANNER_PIDM, CONC.PRIMARY_CONC_LEVEL_CODE , CONC.PRIMARY_CONC_MAJOR_CODE, 
+            MAX(DECODE(ROW_NUM, 1 , PRIMARY_CONCENTRATION_CODE)) AS CONC1,
+            MAX(DECODE(ROW_NUM, 2 , PRIMARY_CONCENTRATION_CODE)) AS CONC2,
+            MAX(DECODE(ROW_NUM, 3 , PRIMARY_CONCENTRATION_CODE)) AS CONC3
+            FROM (
+            SELECT BANNER_PIDM, PRIMARY_CONC_LEVEL_CODE, PRIMARY_CONCENTRATION_CODE , PRIMARY_CONC_MAJOR_CODE , 
+            ROW_NUMBER() OVER (PARTITION BY BANNER_PIDM ORDER BY PRIMARY_CONCENTRATION_CODE ASC ) ROW_NUM
+            FROM JJ_DEV.VTECH_SRC.PRIMARY_CONCENTRATION_DIM PCD 
+            WHERE PCD.CURRENT_RECORD_IND = 'Y' 
+            AND PRIMARY_CONC_FROM_DATE <= (SELECT TERM_END_DATE FROM JJ_DEV.VTECH_SRC.TERM_DIMENSION TD WHERE CURRENT_TERM_IND = 'Y' )
+            AND PRIMARY_CONC_TO_DATE >= (SELECT TERM_END_DATE FROM JJ_DEV.VTECH_SRC.TERM_DIMENSION TD WHERE CURRENT_TERM_IND = 'Y' )
+            GROUP BY BANNER_PIDM, PRIMARY_CONC_LEVEL_CODE, PRIMARY_CONCENTRATION_CODE , PRIMARY_CONC_MAJOR_CODE 
+            ) CONC
+            GROUP BY CONC.BANNER_PIDM, CONC.PRIMARY_CONC_LEVEL_CODE, CONC.PRIMARY_CONC_MAJOR_CODE 
+            ) CONC_DATA 
+            ON SD.BANNER_PIDM = CONC_DATA.BANNER_PIDM 
+            AND SD.STUDENT_LEVEL_CODE = CONC_DATA.PRIMARY_CONC_LEVEL_CODE 
+            LEFT JOIN (
+            SELECT * FROM (
+            SELECT DISTINCT SD.BANNER_PIDM, MAJ_CONC.PRIMARY_CONC_MAJOR_CODE , MAJ_CONC.CONC1_PRIMARY_CONCENTRATION_CODE ,
+            MAJ_CONC.CONC2_PRIMARY_CONCENTRATION_CODE , MAJ_CONC.CONC3_PRIMARY_CONCENTRATION_CODE 
+            , PREV_MAJR.TERM_CODE
+            , CASE WHEN SD.STUDENT_LEVEL_CODE = PREV_MAJR.PRIMARY_CONC_LEVEL_CODE THEN PREV_MAJR.PRIMARY_CONC_MAJOR_CODE ELSE NULL END AS MAJ_PREV 
+            , ROW_NUMBER() OVER (PARTITION BY PREV_MAJR.BANNER_PIDM ORDER BY PREV_MAJR.TERM_CODE DESC ) MAJ_CONC_ROW_NUM 
+            , PREV_MAJR_ROW_NUM
+            FROM 
+            (   SELECT SD.BANNER_PIDM, SD.EFFECTIVE_TERM_CODE, SD.STUDENT_LEVEL_CODE FROM JJ_DEV.VTECH_SRC.STUDENT_DIMENSION SD 
+                        WHERE SD.CURRENT_RECORD_IND = 'Y' 
+                        AND SD.EFFECTIVE_TERM_CODE = (SELECT MAX(EFFECTIVE_TERM_CODE) FROM JJ_DEV.VTECH_SRC.STUDENT_DIMENSION A 
+                        INNER JOIN (
+                        SELECT TERM_CODE AS CUR_TERM, to_char(year_past)||substr(TERM_CODE,5,2) AS PAST_TERM 
+                        FROM (
+                        SELECT TERM_CODE, to_number(substr(TERM_CODE,1,4)) - 20 AS year_past FROM JJ_DEV.VTECH_SRC.TERM_DIMENSION TD WHERE CURRENT_TERM_IND = 'Y' 
+                        )X )TERMS 
+                        ON A.EFFECTIVE_TERM_CODE between TERMS.PAST_TERM AND TERMS.CUR_TERM  
+                        WHERE A.BANNER_PIDM = SD.BANNER_PIDM 
+                        AND A.CURRENT_RECORD_IND = 'Y' )
+            ) SD 
+             LEFT JOIN (
+             SELECT P.BANNER_PIDM , P.TERM_CODE , P.PRIMARY_CONC_MAJOR_CODE , 
+             P.CONC1_PRIMARY_CONCENTRATION_CODE ,
+            P.CONC2_PRIMARY_CONCENTRATION_CODE , P.CONC3_PRIMARY_CONCENTRATION_CODE 
+            FROM {{ ref('SRC', 'STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED') }} P ) MAJ_CONC
+            ON SD.BANNER_PIDM = MAJ_CONC.BANNER_PIDM 
+            AND SD.EFFECTIVE_TERM_CODE = MAJ_CONC.TERM_CODE 
+            LEFT JOIN (
+            SELECT DISTINCT A.BANNER_PIDM , A.TERM_CODE , A.PRIMARY_CONC_MAJOR_CODE , A.PRIMARY_CONC_LEVEL_CODE 
+            , ROW_NUMBER() OVER (PARTITION BY A.BANNER_PIDM ORDER BY A.TERM_CODE DESC ) AS PREV_MAJR_ROW_NUM 
+            FROM JJ_DEV.VTECH_SRC.STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED A 
+            WHERE A.TERM_CODE = (SELECT MAX(TERM_CODE) FROM JJ_DEV.VTECH_SRC.STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED B 
+            WHERE A.BANNER_PIDM = B.BANNER_PIDM 
+            AND A.PRIMARY_CONC_MAJOR_CODE = B.PRIMARY_CONC_MAJOR_CODE )
+            ) PREV_MAJR
+            ON SD.BANNER_PIDM = PREV_MAJR.BANNER_PIDM 
+            AND PREV_MAJR.TERM_CODE < SD.EFFECTIVE_TERM_CODE 
+            AND PREV_MAJR.PRIMARY_CONC_MAJOR_CODE <> MAJ_CONC.PRIMARY_CONC_MAJOR_CODE 
+            )X 
+            WHERE X.MAJ_CONC_ROW_NUM = 1 OR PREV_MAJR_ROW_NUM IS NULL ) MAJ_CONC 
+            ON SD.BANNER_PIDM = MAJ_CONC.BANNER_PIDM 
+            LEFT JOIN (
+            select DISTINCT BANNER_PIDM, TERM_CODE_EFFECTIVE  
+            FROM {{ ref('SRC', 'STUDENT_ATTRIBUTE_CODE_DIM') }} SACD
+            where SACD.TERM_CODE_EFFECTIVE = (select max(m.TERM_CODE_EFFECTIVE)
+            				from JJ_DEV.VTECH_SRC.STUDENT_ATTRIBUTE_CODE_DIM m
+            				where m.BANNER_PIDM = SACD.BANNER_PIDM 
+            				and m.TERM_CODE_EFFECTIVE <= (SELECT TERM_CODE FROM JJ_DEV.VTECH_SRC.TERM_DIMENSION TD WHERE CURRENT_TERM_IND = 'Y' ))
+                 ) MAX_ATTRIB 
+            ON ED.BANNER_PIDM = MAX_ATTRIB.BANNER_PIDM 
+            LEFT JOIN ( 
+            SELECT BANNER_PIDM, TERM_CODE_EFFECTIVE, 
+                   MAX(DECODE(substr(STUDENT_ATTRIBUTE_CODE,1,1), 'G', STUDENT_ATTRIBUTE_CODE)) AS GRADCAT,
+                   MAX(DECODE(substr(STUDENT_ATTRIBUTE_CODE,1,1), 'S', STUDENT_ATTRIBUTE_CODE)) AS SPECCAT ,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'BSMS', STUDENT_ATTRIBUTE_CODE, 'DUAL', STUDENT_ATTRIBUTE_CODE, 'FI', STUDENT_ATTRIBUTE_CODE)) AS UGCAT,
+                   MAX(DECODE(substr(STUDENT_ATTRIBUTE_CODE,1,1), 'T', STUDENT_ATTRIBUTE_CODE)) AS TCHED,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'ISEP', STUDENT_ATTRIBUTE_CODE, 'NSEP', STUDENT_ATTRIBUTE_CODE, 'INEP', STUDENT_ATTRIBUTE_CODE)) AS EXCH,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'ACME', STUDENT_ATTRIBUTE_CODE)) AS ACME,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'RAIR', STUDENT_ATTRIBUTE_CODE, 'RARM', STUDENT_ATTRIBUTE_CODE, 'RCAD', STUDENT_ATTRIBUTE_CODE, 'RMAR', STUDENT_ATTRIBUTE_CODE, 'RNAV', STUDENT_ATTRIBUTE_CODE)) AS CORPS,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'HNRE', STUDENT_ATTRIBUTE_CODE)) AS HNRE ,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'HNRS', STUDENT_ATTRIBUTE_CODE)) AS HNRS,
+                   MAX(DECODE(substr(STUDENT_ATTRIBUTE_CODE,1,1), 'C', STUDENT_ATTRIBUTE_CODE)) AS COOP,
+                   MAX(DECODE(substr(STUDENT_ATTRIBUTE_CODE,1,1), 'P', STUDENT_ATTRIBUTE_CODE)) AS PREPROF,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'GDIR', STUDENT_ATTRIBUTE_CODE)) AS GDIR,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'EMBA', STUDENT_ATTRIBUTE_CODE)) AS EMBA, 
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, '5TH', STUDENT_ATTRIBUTE_CODE)) AS FIFTH,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'FI', STUDENT_ATTRIBUTE_CODE)) AS FI,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'ENTI', STUDENT_ATTRIBUTE_CODE)) AS ENTI,
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'ENTO', STUDENT_ATTRIBUTE_CODE)) AS ENTO, 
+                   MAX(DECODE(STUDENT_ATTRIBUTE_CODE, 'PMBA', STUDENT_ATTRIBUTE_CODE)) AS PMBA
+            FROM JJ_DEV.VTECH_SRC.STUDENT_ATTRIBUTE_CODE_DIM SACD 
+            GROUP BY BANNER_PIDM, TERM_CODE_EFFECTIVE   ) STUD_ATTR 
+            ON MAX_ATTRIB.BANNER_PIDM = STUD_ATTR.BANNER_PIDM 
+            AND MAX_ATTRIB.TERM_CODE_EFFECTIVE = STUD_ATTR.TERM_CODE_EFFECTIVE 
+            LEFT JOIN (
+            SELECT A.BANNER_PIDM, A.EFFECTIVE_TERM_CODE, A.STUDENT_LEVEL_CODE , A.STUDENT_TYPE_CODE , A.MATRICULATION_TERM_CODE 
+            FROM JJ_DEV.VTECH_SRC.STUDENT_DIMENSION A 
+            WHERE A.EFFECTIVE_TERM_CODE = (SELECT MIN(X.EFFECTIVE_TERM_CODE) EFFECTIVE_TERM_CODE FROM JJ_DEV.VTECH_SRC.STUDENT_DIMENSION X
+            WHERE X.CURRENT_RECORD_IND = 'Y' 
+            AND X.BANNER_PIDM = A.BANNER_PIDM 
+            AND X.STUDENT_LEVEL_CODE = A.STUDENT_LEVEL_CODE ) 
+            AND A.CURRENT_RECORD_IND = 'Y' 
+            AND A.STUDENT_STATUS_CODE = 'AS' ) SD_MIN  
+            ON SD_MIN.BANNER_PIDM = SD.BANNER_PIDM 
+            AND SD_MIN.STUDENT_LEVEL_CODE = SD.STUDENT_LEVEL_CODE 
+            LEFT JOIN (
+            SELECT A.*, B.VETERANS_BENEFIT_TYPE_DESC FROM JJ_DEV.VTECH_SRC.STUDENT_TERM_STATUS A 
+            INNER JOIN JJ_DEV.VTECH_SRC.VETERANS_BENEFIT_TYPE_DIM B
+            ON A.VETERANS_BENEFIT_TYPE_KEY = B.VETERANS_BENEFIT_TYPE_KEY 
+            WHERE A.CURRENT_RECORD_IND = 'Y' 
+            AND A.VETERANS_BENEFIT_TYPE_KEY != 0 
+            AND A.TERM_CODE = (select MAX(C.TERM_CODE)
+            				from JJ_DEV.VTECH_SRC.STUDENT_TERM_STATUS C
+            				where C.BANNER_PIDM = A.BANNER_PIDM 
+            				AND C.CURRENT_RECORD_IND = 'Y' 
+            				and C.TERM_CODE <= (SELECT TERM_CODE FROM JJ_DEV.VTECH_SRC.TERM_DIMENSION TD WHERE CURRENT_TERM_IND = 'Y' ) 
+            				AND C.VETERANS_BENEFIT_TYPE_KEY != 0 
+            				)
+            ) STS 
+            ON STS.BANNER_PIDM = ED.BANNER_PIDM 
+            LEFT JOIN (
+            SELECT TGD.BANNER_PIDM , TGD.LEVEL_CODE, MAX_GPA.TERM_CODE , TGD.TERM_HOURS_ATTEMPTED, TGD.TERM_HOURS_EARNED, TGD.TERM_GPA_HOURS, TGD.TERM_QUALITY_POINTS, TGD.TERM_GPA, TERM_HOURS_PASSED 
+            FROM JJ_DEV.VTECH_SRC.TERM_GPA_DIMENSION TGD 
+            INNER JOIN (           
+            SELECT BANNER_PIDM, LEVEL_CODE , MAX(TERM_CODE) AS TERM_CODE 
+            FROM JJ_DEV.VTECH_SRC.TERM_GPA_DIMENSION TGD 
+            GROUP BY BANNER_PIDM , LEVEL_CODE ) MAX_GPA 
+            ON TGD.BANNER_PIDM = MAX_GPA.BANNER_PIDM 
+            AND TGD.TERM_CODE = MAX_GPA.TERM_CODE 
+            AND TGD.LEVEL_CODE = MAX_GPA.LEVEL_CODE ) )
+        dependencies:
+          - locationName: SRC
+            nodeName: STUDENT_ATTRIBUTE_CODE_DIM
+          - locationName: SRC
+            nodeName: STUDENT_ENTITY_DIMENSION
+          - locationName: SRC
+            nodeName: STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED
+        join:
+          joinCondition: |-
+            {{ ref('SRC', 'STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED') }}
+            {{ ref('SRC', 'STUDENT_ATTRIBUTE_CODE_DIM') }}
+            {{ ref('SRC', 'STUDENT_ENTITY_DIMENSION') }}
+        name: V_NODE
+        noLinkRefs: []
+  name: V_NODE
+  overrideSQL: true
+  schema: ""
+  sqlType: View
+  type: sql
+  version: 1
+type: Node

@@ -1,0 +1,149 @@
+fileVersion: 1
+id: d90d9097-b361-4188-81e1-39171c59f1fa
+name: STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 81e48172-1755-4275-88aa-35a0ba55fcde
+          stepCounter: d90d9097-b361-4188-81e1-39171c59f1fa
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: BANNER_PIDM
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5ed93de5-b08b-4e54-bc52-4e51bd87a638
+          stepCounter: d90d9097-b361-4188-81e1-39171c59f1fa
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: TERM_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7b623222-ef68-42bb-89be-ca7754bb3470
+          stepCounter: d90d9097-b361-4188-81e1-39171c59f1fa
+        config: {}
+        dataType: VARCHAR(4)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONC_MAJOR_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fc751e87-ca34-4fcc-b56b-0a248feea8f1
+          stepCounter: d90d9097-b361-4188-81e1-39171c59f1fa
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: PRIMARY_CONC_LEVEL_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6d9f34f7-3ee7-486e-96dc-8db39d542b6e
+          stepCounter: d90d9097-b361-4188-81e1-39171c59f1fa
+        config: {}
+        dataType: VARCHAR(4)
+        defaultValue: ""
+        description: ""
+        name: CONC1_PRIMARY_CONCENTRATION_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 726bf8d6-9333-44e9-95b8-4954b64e7fdb
+          stepCounter: d90d9097-b361-4188-81e1-39171c59f1fa
+        config: {}
+        dataType: VARCHAR(4)
+        defaultValue: ""
+        description: ""
+        name: CONC2_PRIMARY_CONCENTRATION_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cdb5a4f7-ae1e-42ca-95bd-1cdbf1182b49
+          stepCounter: d90d9097-b361-4188-81e1-39171c59f1fa
+        config: {}
+        dataType: VARCHAR(4)
+        defaultValue: ""
+        description: ""
+        name: CONC3_PRIMARY_CONCENTRATION_CODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: STUDENT_TERM_PRIMARY_CONCENTRATION_FLATTENED
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

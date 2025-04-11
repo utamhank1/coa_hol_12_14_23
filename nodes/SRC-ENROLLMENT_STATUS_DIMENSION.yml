@@ -1,0 +1,54 @@
+fileVersion: 1
+id: c524867f-6070-4959-bc1f-14059dfe42df
+name: ENROLLMENT_STATUS_DIMENSION
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6dd96259-562e-4085-bc9d-ccf5c0a28852
+          stepCounter: c524867f-6070-4959-bc1f-14059dfe42df
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: ENROLLMENT_STATUS_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1bc161b0-83e9-42fe-82ef-afffa02496f2
+          stepCounter: c524867f-6070-4959-bc1f-14059dfe42df
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ENROLLMENT_STATUS_DESC
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: ENROLLMENT_STATUS_DIMENSION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

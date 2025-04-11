@@ -1,0 +1,54 @@
+fileVersion: 1
+id: 93b9ab5f-d913-4a1c-bb9b-71c1ab14325d
+name: TERM_ACADEMIC_STANDING_DIM
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d2269fcd-a353-42b6-b4e0-5d24d0fe6f3e
+          stepCounter: 93b9ab5f-d913-4a1c-bb9b-71c1ab14325d
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: ACADEMIC_STANDING_CODE
+        nullable: false
+        primaryKey: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 21c5a0c7-c13b-450c-abad-f233c359a7d2
+          stepCounter: 93b9ab5f-d913-4a1c-bb9b-71c1ab14325d
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ACADEMIC_STANDING_DESC
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: TERM_ACADEMIC_STANDING_DIM
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
