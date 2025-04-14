@@ -155,14 +155,18 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          PART: b2fcf73b-7bd0-47a4-99c2-1403d448da62
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: SRC
             nodeName: PART
         join:
-          joinCondition: FROM {{ ref('SRC', 'PART') }} "PART"
+          joinCondition: |
+            FROM {{ ref('SRC', 'PART') }} "PART"
+
+            {{ node.name }}
         name: STG_PART
         noLinkRefs: []
   name: STG_PART

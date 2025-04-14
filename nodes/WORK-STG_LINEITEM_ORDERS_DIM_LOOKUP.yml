@@ -511,7 +511,7 @@ operation:
           - locationName: WORK
             nodeName: STG_LINEITEM_ORDERS
         join:
-          joinCondition: |-
+          joinCondition: |
             FROM {{ ref('WORK', 'STG_LINEITEM_ORDERS') }} "STG_LINEITEM_ORDERS"
             LEFT JOIN {{ ref('WORK', 'DIM_CUSTOMER') }} "DIM_CUSTOMER"
             ON "STG_LINEITEM_ORDERS".ORDER_CUSTKEY = "DIM_CUSTOMER"."C_CUSTKEY"
@@ -519,6 +519,8 @@ operation:
             ON "STG_LINEITEM_ORDERS".LINEITEM_PARTKEY = "DIM_PART"."P_PARTKEY"
             LEFT JOIN {{ ref('WORK', 'DIM_SUPPLIER') }} "DIM_SUPPLIER"
             ON "STG_LINEITEM_ORDERS".LINEITEM_SUPPKEY = "DIM_SUPPLIER"."S_SUPPKEY"
+
+            {{ sources[0].dependencies | list | selectattr('node.id','equalto','07cb85d8-7f85-4026-9a99-f85a65b5f8db') | list | map(attribute='columns') | first | selectattr('isBusinessKey','defined') | list | map(attribute='name') | list }}
         name: STG_LINEITEM_ORDERS_DIM_LOOKUP
         noLinkRefs: []
   name: STG_LINEITEM_ORDERS_DIM_LOOKUP

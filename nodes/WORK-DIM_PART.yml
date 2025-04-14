@@ -273,14 +273,17 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          STG_PART: fa61b2df-e4c9-4c8a-b992-a2607e18a407
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: WORK
             nodeName: STG_PART
         join:
-          joinCondition: FROM {{ ref('WORK', 'STG_PART') }} "STG_PART"
+          joinCondition: |+
+            FROM {{ ref('WORK', 'STG_PART') }} "STG_PART"
+
         name: DIM_PART
         noLinkRefs: []
   name: DIM_PART
