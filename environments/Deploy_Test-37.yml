@@ -4,6 +4,9 @@ mappingDefinitions:
   AUDIT:
     database: ""
     schema: ""
+  COA_UTIL:
+    database: ""
+    schema: ""
   SRC:
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCH_SF1

@@ -268,8 +268,14 @@ operation:
           - locationName: SRC
             nodeName: LINEITEM
         join:
-          joinCondition: |
+          joinCondition: |-
             FROM {{ ref('SRC', 'LINEITEM') }} "LINEITEM"
+
+
+            {%if parameters.is_dev_env == "True" %}
+            limit 100
+            {% else %}
+            {% endif %}
         name: STG_LINEITEM
         noLinkRefs: []
   name: STG_LINEITEM

@@ -2,5 +2,6 @@ defaultStorageMapping: WORK
 fileVersion: 1
 locations:
   - AUDIT
+  - COA_UTIL
   - SRC
   - WORK

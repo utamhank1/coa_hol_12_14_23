@@ -16,14 +16,15 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          JOB_LINEITEM: e8351860-c23f-4bc1-b822-39183b934d5a
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: WORK
-            nodeName: JOB_PARTSUPP
+            nodeName: JOB_LINEITEM
         join:
-          joinCondition: FROM {{ ref('WORK', 'JOB_PARTSUPP') }} "JOB_PARTSUPP"
+          joinCondition: FROM {{ ref('WORK', 'JOB_LINEITEM') }}
         name: JOB_CUSTOMER
         noLinkRefs: []
   name: JOB_CUSTOMER
