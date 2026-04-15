@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "37"
+mappingDefinitions:
+  SRC:
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+  WORK:
+    database: JJ_TEST
+    schema: HOL_LAB_12_14_TEST
+name: Deploy_Test
+type: Environment
